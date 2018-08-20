@@ -1,15 +1,10 @@
 ---
-title: "Algoritmi"
+title: "Arbori de Cautare"
 date: 2018-08-20T03:16:20+03:00
 draft: false
 ---
 
 <html>
-  <head>
-    <title>DomnulTudor - ARBORI DE CAUTARE</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <a href="files/Arbori%20de%20cautare.docx">Arbori de cautare.docx</a><br />

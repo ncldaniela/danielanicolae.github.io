@@ -1,15 +1,10 @@
 ---
-title: "Algoritmi"
+title: "Aplicatii Complexe"
 date: 2018-08-20T03:16:20+03:00
 draft: false
 ---
 
 <html>
-  <head>
-    <title>DomnulTudor - APLICATII COMPLEXE</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: center;"><strong>APLICATII COMPLEXE</strong></span><br />
@@ -210,8 +205,8 @@ De exemplu, daca fisierul BAC.TXT are continutul<br />
 atunci programul trebuie sa afiseze pe ecran doar valoarea 3, deoarece in sirul considerat exista mai multe secvente care sunt formate doar din numere strict pozitive, dar lungimea maxima a unei astfel de secvente este 3.<br />
 42. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d. Scrieti un program C/C++ care sa afiseze rezultatul expresiei a/b+c/d sub forma unei fractii ireductibile.<br />
 43. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d. Scrieti un program C/C++ care sa afiseze rezultatul expresiei a/b*c/d sub forma unei fractii ireductibile.<br />
-<span style="font-family: 'Calibri','sans-serif'; font-size: 14.6667px;">44. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d cu care se formeaza numerele complexe z=(a,b) si t=(c,d). Scrieti un program C/C++ care sa afiseze pe ecran rezultatul expresiei z*t.</span><br />
-<span style="font-family: 'Calibri','sans-serif'; font-size: 14.6667px;"> 45. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d cu care se formeaza numerele complexe z=(a,b) si t=(c,d). Scrieti un program C/C++ care sa afiseze rezultatul expresiei z/t.</span>
+<span>44. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d cu care se formeaza numerele complexe z=(a,b) si t=(c,d). Scrieti un program C/C++ care sa afiseze pe ecran rezultatul expresiei z*t.</span><br />
+<span> 45. Se citesc de la tastatura patru numerere naturale nenule a,b,c,d cu care se formeaza numerele complexe z=(a,b) si t=(c,d). Scrieti un program C/C++ care sa afiseze rezultatul expresiei z/t.</span>
     </div>
   </body>
 </html>
