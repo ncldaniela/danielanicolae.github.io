@@ -2,3 +2,7 @@ baseURL = "https://ncldaniela.github.io"
 languageCode = "en-us"
 title = "Daniela Liliana Nicolae"
 theme = "hugo-theme-learn"
+
+# Enable search
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
