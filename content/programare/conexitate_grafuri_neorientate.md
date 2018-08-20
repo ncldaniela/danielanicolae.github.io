@@ -1,9 +1,10 @@
+---
+title: "Conexitate in Grafuri Neorientate"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - CONEXITATE IN GRAFURI NEORIENTATE</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h2 id="toc0"><a name="x-Algoritmul Roy-Warshall:Exista drum intre nodul x si nodul y?"></a><span style="background-color: #ffffff; color: #222222; font-family: Arial,Tahoma,Helvetica,FreeSans,sans-serif; font-size: 22px;">Algoritmul Roy-Warshall:Exista drum intre nodul x si nodul y?</span></h2>

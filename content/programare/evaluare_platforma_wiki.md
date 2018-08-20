@@ -1,9 +1,10 @@
+---
+title: "Evaluare Platforma Wiki"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - EVALUARE PLATFORMA WIKI</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: center;"><strong><span style="color: #000080; font-family: 'Arial Narrow'; font-size: 18.6667px;">Chestionar pentru evaluare curs de catre elevi</span></strong></span><br />

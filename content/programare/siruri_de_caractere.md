@@ -1,9 +1,10 @@
+---
+title: "Siruri de Caractere"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - SIRURI DE CARACTERE</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h1 id="toc0"><a name="Notiuni teoretice"></a><span style="color: #008000;">Notiuni teoretice</span></h1>

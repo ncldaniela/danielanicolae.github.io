@@ -1,9 +1,10 @@
+---
+title: "Expresii"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - EXPRESII</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: justify;"><u>Aplicaţii EXPRESII</u></span><br />

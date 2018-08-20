@@ -1,9 +1,10 @@
+---
+title: "Comunicarea intr-o Retea Locala"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - Comunicarea într-o reţea locală</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <a href="files/1.%20Functionarea%20echipamentelor%20intr-o%20retea%20locala.pdf">1. Functionarea echipamentelor intr-o retea locala.pdf</a> <a href="files/huburi%20versus%20switch-uri%20versus%20routere.docx">huburi versus switch-uri versus routere.docx</a><br />

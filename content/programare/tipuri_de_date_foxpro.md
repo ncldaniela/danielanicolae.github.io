@@ -1,9 +1,11 @@
+---
+title: "Tipuri de Date in FoxPRO"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
+
 <html>
-  <head>
-    <title>DomnulTudor - TIPURI DE DATE IN FOXPRO</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></em><em><span style="font-size: 12pt;"> în FoxPro</span></em><br />

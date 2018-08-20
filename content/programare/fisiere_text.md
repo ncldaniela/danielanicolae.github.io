@@ -1,9 +1,10 @@
+---
+title: "Fisiere Text"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - FIŞIERE TEXT</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">Declararea, închiderea şi deschiderea fişierelor în C++ utilizează anumite clase şi funcţii care sunt declarate în biblioteca <em>fstream.h.</em></span></span><br />

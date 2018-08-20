@@ -1,9 +1,10 @@
+---
+title: "Space.Menu"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - space.menu</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span class="wiki_link_ext"><a class="wiki_link" href="ORA%20DE%20DIRIGENTIE.html#http://localhost/Login2.aspx?loginRedirect=%2fdefault.aspx">ORA DE DIRIGENTIE</a></span><br />

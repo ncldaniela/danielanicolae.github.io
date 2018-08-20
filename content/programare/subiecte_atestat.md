@@ -1,9 +1,10 @@
+---
+title: "Subiecte Atestat"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - SUBIECTE ATESTAT</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <a href="files/SUBIECTE_ATESTAT_INFORMATICA_2016%20%281%29.pdf">SUBIECTE_ATESTAT_INFORMATICA_2016 (1).pdf</a><br />

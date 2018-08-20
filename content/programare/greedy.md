@@ -1,9 +1,10 @@
+---
+title: "Greedy"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - GREEDY</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: center;"><strong><span style="color: #0000ff; font-family: 'Times New Roman','serif'; font-size: 24px;"><span class="wiki_link_ext">Metoda Greedy</span></span></strong></span><br />

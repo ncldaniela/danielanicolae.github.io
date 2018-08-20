@@ -1,15 +1,10 @@
 ---
-title: "Algoritmi"
+title: "Arbori"
 date: 2018-08-20T03:16:20+03:00
 draft: false
 ---
 
 <html>
-  <head>
-    <title>DomnulTudor - ARBORI</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; font-family: 'Times New Roman',serif; font-size: 16px; text-align: justify;">Fie un graf neorientat <em>G</em>=(<em>V</em>,<em>U</em>), unde <em>V</em> e mulțimea vârfurilor, iar <em>U</em> cea a muchiilor sale. Următoarele afirmații sunt echivalente:</span><br />

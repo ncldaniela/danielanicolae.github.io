@@ -1,9 +1,10 @@
+---
+title: "SQL"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - SQL</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <iframe class="scribd_iframe_embed" src="//www.scribd.com/embeds/211498969/content?start_page=1&amp;view_mode=slideshow&amp;access_key=key-781nb3d3gj6y4wq3p63&amp;show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.706896551724138" scrolling="no" id="doc_47116" width="100%" height="600" frameborder="0" name="doc_47116"></iframe><br />

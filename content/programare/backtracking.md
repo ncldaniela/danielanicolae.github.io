@@ -1,15 +1,10 @@
 ---
-title: "Algoritmi"
+title: "Backtracking"
 date: 2018-08-20T03:16:20+03:00
 draft: false
 ---
 
 <html>
-  <head>
-    <title>DomnulTudor - BACKTRACKING</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="font-size: 10pt;">Metoda backtracking se aplica problemelor in care solutia se poate prezenta sub forma unui vector x={x1,x2,…,xn} unde x1 apartine unei multimi S1, x2 apartine multimii S2 s.a.m.d.Si i=1…n sunt multimi finite. Cerinta problemei este, de obicei, gasirea tuturor solutiilor posibile sau gasirea numarului de solutii care satisfac anumite conditii specifice problemei. De multe ori metoda se foloseste si pentru gasirea unei singure solutii (dupa gasirea acesteia se intrerupe executia programului), a unei solutii maxime/minime insa, pentru astfel de cazuri recomandam gasirea unei alte solutii de rezolvare datorita faptului ca metoda Backtracking consuma resurse mari de memorie si timp.</span><br />

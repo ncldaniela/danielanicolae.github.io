@@ -19,7 +19,7 @@
 <span style="font-family: 'Times New Roman',serif;">2. din caseta de dialog <strong>New</strong> se alege <strong>Program</strong></span><br />
 <ol><li><span style="font-family: 'Times New Roman',serif;">3. se alege <strong>New File</strong>.</span></li></ol><span style="font-family: 'Times New Roman',serif;">- în fereastra <strong>Command</strong> se foloseste comanda <strong>MODIFY COMMAND</strong> </span><br />
 <span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif;">MODIFY COMMAND [<em>FileName</em> | ?] </span></strong></span><br />
-<span style="font-family: "Times New Roman",serif;">Visual Fox Pro va deschide o noua fereastra, în care se pot edita instructiunile programului.</span><br />
+<span style="font-family: 'Times New Roman',serif;">Visual Fox Pro va deschide o noua fereastra, în care se pot edita instructiunile programului.</span><br />
 <h1 id="toc1"><a name="Salvarea programelor"></a><u><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Salvarea programelor</span></u></h1>
  <span style="font-family: 'Times New Roman',serif;">- din meniul <strong>File</strong> se alege <strong>Save</strong></span><br />
 <span style="font-family: 'Times New Roman',serif;">- daca se salveaza un program creat în <strong>Progect Manager</strong> , acesta este automat adaugat proiectului.</span><br />

@@ -1,9 +1,10 @@
+---
+title: "Recursivitate"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
-  <head>
-    <title>DomnulTudor - RECURSIVITATE</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; font-family: "Times New Roman",serif; font-size: 16px; text-align: justify;"><strong>Recursivitatea</strong> este un mecanism general de elaborare a algoritmilor. O <u><span style="color: #0000ff;">functie</span></u> se numeste <u><span style="color: #0000ff;">recursiva</span></u> daca ea se autoapeleaza, fie <em><span style="color: #0000ff;">direct</span></em> (in definitia ei, se face apel la ea insasi), fie <em><span style="color: #0000ff;">indirect</span></em> (functia X apeleaza functia Y, care apeleaza functia X).</span><br />

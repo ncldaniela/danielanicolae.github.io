@@ -1,3 +1,9 @@
+---
+title: "Mate Bacalaureat"
+date: 2018-08-20T03:16:20+03:00
+draft: false
+---
+
 <html>
   <head>
     <title>DomnulTudor - MATE BAC</title>
