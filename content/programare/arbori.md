@@ -34,12 +34,12 @@ draft: false
 <br />
 <a class="wiki_link_ext" href="http://informaticasite.ro/probleme-rezolvate-c++/arbori/" rel="nofollow">http://informaticasite.ro/probleme-rezolvate-c++/arbori/</a><br />
 <h1 id="toc0"><a name="Probleme propuse"></a><span style="color: #008000; font-family: 'Times New Roman','serif'; font-size: 16px;">Probleme propuse</span></h1>
- <h2 id="toc1"><a name="Probleme propuse-file:test_grafuri_neorientate1.docx"></a><a href="files/test_grafuri_neorientate1.docx">test_grafuri_neorientate1.docx</a></h2>
- <a href="files/test_grafuri_neorientate2.docx">test_grafuri_neorientate2.docx</a><br />
-<a href="files/test_grafuri_neorientate3.docx">test_grafuri_neorientate3.docx</a><br />
+ <h2 id="toc1"><a name="Probleme propuse-file:test_grafuri_neorientate1.docx"></a><a href="/files/test_grafuri_neorientate1.docx">test_grafuri_neorientate1.docx</a></h2>
+ <a href="/files/test_grafuri_neorientate2.docx">test_grafuri_neorientate2.docx</a><br />
+<a href="/files/test_grafuri_neorientate3.docx">test_grafuri_neorientate3.docx</a><br />
 <span style="display: block; font-family: 'Times New Roman',serif; font-size: 16px; text-align: justify;">1. Elevii unei clase stau in banca cate doi sau cate unul singur. Cand este nevoie sa se faca un anunt urgent la sfarsit de saptamana sau in vacanta, ei au stabilit un sistem prin care un elev va anunta pe altii doi care sunt colegi de banca, sau pe unul singur, daca nu are coleg de banca (exista si elevi care nu vor da telefoane mai departe). Stiind ca doamna diriginta face primul anunt (anunta doi elevi care sunt colegi de banca) si apoi fiecare elev isi anunta alti doi colegi de banca (sau unul sau niciunul) de clasa si asa mai departe, se cere sa se scrie un program care realizeaza urmatoarele:</span><br />
 <br />
-<span style="font-family: 'Times New Roman','serif'; font-size: 16px;">a) memorarea datelor intr-un arbore binar alocat in heap. Un elev inexistent se va marca cu * <a href="files/ARBORE.cxx">ARBORE.cxx</a></span><br />
+<span style="font-family: 'Times New Roman','serif'; font-size: 16px;">a) memorarea datelor intr-un arbore binar alocat in heap. Un elev inexistent se va marca cu * <a href="/files/ARBORE.cxx">ARBORE.cxx</a></span><br />
 <span style="font-family: 'Times New Roman','serif'; font-size: 16px;"> b) numara si afiseaza din cati elevi este formata clasa</span><br />
 <span style="font-family: 'Times New Roman','serif'; font-size: 16px;"> c) afiseaza numele tuturor elevilor din clasa</span><br />
 <span style="font-family: 'Times New Roman','serif'; font-size: 16px;"> d) sa se determine daca un elev face parte din clasa</span><br />

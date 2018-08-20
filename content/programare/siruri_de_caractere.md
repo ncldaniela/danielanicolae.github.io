@@ -8,14 +8,14 @@ draft: false
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h1 id="toc0"><a name="Notiuni teoretice"></a><span style="color: #008000;">Notiuni teoretice</span></h1>
- <a href="files/SIRURI%20DE%20CARACTERE.doc">SIRURI DE CARACTERE.doc</a><br />
+ <a href="/files/SIRURI%20DE%20CARACTERE.doc">SIRURI DE CARACTERE.doc</a><br />
 <h1 id="toc1"><a name="TESTE GRILA"></a><span style="color: #008000;">TESTE GRILA</span></h1>
- <a href="files/TESTE%20GRILA.docx">TESTE GRILA.docx</a><br />
+ <a href="/files/TESTE%20GRILA.docx">TESTE GRILA.docx</a><br />
 <h2 id="toc2"><a name="TESTE GRILA-PROBLEME PROPUSE"></a><span style="color: #008000;">PROBLEME PROPUSE</span></h2>
  <a class="wiki_link_ext" href="http://info.mcip.ro/?cap=Siruri%20de%20caractere" rel="nofollow">http://info.mcip.ro/?cap=Siruri%20de%20caractere</a><br />
 <span style="display: block; text-align: right;"><br />
 </span><br />
-<a href="files/Probleme%20backtracking.doc">Probleme backtracking.doc</a><br />
+<a href="/files/Probleme%20backtracking.doc">Probleme backtracking.doc</a><br />
 <h1 id="toc3"><a name="PROBLEME REZOLVATE"></a><span style="color: #0011ff;"> PROBLEME REZOLVATE</span></h1>
  <span style="color: #c00000; font-size: 13.3333px;">1. Se citeşte de la tastatură un cuvânt. Să se afişeze numărul iniţial de caractere ale cuvântului şi apoi să se şteargă toate vocalele din cuvânt.</span><br />
 <span style="font-size: 13.3333px;">#include&lt;iostream.h&gt;</span><br />

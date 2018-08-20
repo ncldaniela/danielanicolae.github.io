@@ -179,7 +179,7 @@ c.y=(a.y*b.x-a.x*b.y)/(b.x*b.x+b.y*b.y);<br />
 <span style="font-size: 14.6667px;"> getch();</span><br />
 <span style="font-family: 'Arial','sans-serif';">}</span><br />
 <br />
-<h3 id="toc5"><a name="x--file:Fisa de lucru_tipul_struct.pdf"></a><span style="font-family: 'Arial','sans-serif';"><a href="files/Fisa%20de%20lucru_tipul_struct.pdf">Fisa de lucru_tipul_struct.pdf</a></span></h3>
+<h3 id="toc5"><a name="x--file:Fisa de lucru_tipul_struct.pdf"></a><span style="font-family: 'Arial','sans-serif';"><a href="/files/Fisa%20de%20lucru_tipul_struct.pdf">Fisa de lucru_tipul_struct.pdf</a></span></h3>
 
     </div>
   </body>

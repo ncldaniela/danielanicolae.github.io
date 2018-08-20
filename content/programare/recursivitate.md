@@ -71,9 +71,9 @@ O gandire recursiva exprima concentrat o anumita stare, care se repeta la infini
 Observati ca la primele doua subprograme conditia de continuare (a iteratiei respectiv a autoapelului este aceeasi)<br />
 <strong><span style="color: #ff0000;">Recomandare</span></strong> : inainte de elaborarea algoritmilor recusivi generati mai intai subprogramul iterativ apoi treceti-l in subprogram recursiv.<br />
 <h2 id="toc3"><a name="Functia recursiva 2-TESTE GRILA"></a>TESTE GRILA</h2>
- <a href="files/Grile%20recursivitate3.pdf">Grile recursivitate3.pdf</a><br />
-<a href="files/grile%20recursivitate1.doc">grile recursivitate1.doc</a><br />
-<a href="files/Grile%20recursivitate%202.doc">Grile recursivitate 2.doc</a><br />
+ <a href="/files/Grile%20recursivitate3.pdf">Grile recursivitate3.pdf</a><br />
+<a href="/files/grile%20recursivitate1.doc">grile recursivitate1.doc</a><br />
+<a href="/files/Grile%20recursivitate%202.doc">Grile recursivitate 2.doc</a><br />
 <h2 id="toc4"><a name="Functia recursiva 2-Aplicatii rezolvate online"></a><strong>Aplicatii rezolvate online</strong></h2>
  <a class="wiki_link_ext" href="http://info.mcip.ro/?cap=Recursivitate" rel="nofollow">http://info.mcip.ro/?cap=Recursivitate</a>
     </div>

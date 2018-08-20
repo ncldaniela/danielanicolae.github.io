@@ -8,7 +8,7 @@ draft: false
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h2 id="toc0"><a name="x-Platforma Moodle"></a>Platforma Moodle</h2>
- <a href="files/Manual_profesor_platforma_elearning.pdf">Manual_profesor_platforma_elearning.pdf</a>
+ <a href="/files/Manual_profesor_platforma_elearning.pdf">Manual_profesor_platforma_elearning.pdf</a>
     </div>
   </body>
 </html>

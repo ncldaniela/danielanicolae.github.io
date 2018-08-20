@@ -39,7 +39,7 @@ An = {1, 2, 3, …, kn}<br />
 <br />
 8. <strong>Problema comis-voiajorului.</strong> Un comis voiajor trebuie să viziteze un număr n de oraşe. Iniţial, el se află într-unul dintre ele, notat 1. Comis – voiajorul doreşte să nu treacă de două ori prin acelaşi oraş, iar la întoarcere să revină în oraşul 1. Cunoscând legăturile existente între oraşe, se cere să se tipărească toate drumurile posibile pe care le poate efectua comis – voiajorul.<br />
 <br />
-9 <strong>Sa se genereze partitiile nr.natural n.<a href="files/partitii.cpp">partitii.cpp</a></strong><br />
+9 <strong>Sa se genereze partitiile nr.natural n.<a href="/files/partitii.cpp">partitii.cpp</a></strong><br />
 ex.n=5<br />
 5=1+1+1+1+1<br />
 5=1+1+1+2<br />
@@ -51,7 +51,7 @@ ex.n=5<br />
 
 <table class="wiki_table">
     <tr>
-        <td>10. Se citeste de la tastatura un numar natural n par, n&lt;30. Sa se genereze si sa se afiseze pe ecran toate combinatiile de n paranteze rotunde care se închid corect. De exemplu, pentru n=4 se obtin urmatoarele combinatii: ( ( ) ) si ( ) ( ) .<a href="files/PARANTEZE.CPP">PARANTEZE.CPP</a><br />
+        <td>10. Se citeste de la tastatura un numar natural n par, n&lt;30. Sa se genereze si sa se afiseze pe ecran toate combinatiile de n paranteze rotunde care se închid corect. De exemplu, pentru n=4 se obtin urmatoarele combinatii: ( ( ) ) si ( ) ( ) .<a href="/files/PARANTEZE.CPP">PARANTEZE.CPP</a><br />
 </td>
     </tr>
 </table>
@@ -62,11 +62,11 @@ Exemplu:<br />
 5=1+2+3+4-5<br />
 5=1-2-3+4+5<br />
 5=-1+2+3-4+5<br />
-<a href="files/SUMA.CPP">SUMA.CPP</a><br />
+<a href="/files/SUMA.CPP">SUMA.CPP</a><br />
 <h2 id="toc0"><a name="x-LISTA PROBLEME"></a><strong>LISTA PROBLEME</strong></h2>
- <h2 id="toc1"><a name="x-file:backtracking_proiect.docx file:subiecte_informatica_limbajul_c_(sub_3).zip"></a><a href="files/backtracking_proiect.docx">backtracking_proiect.docx</a> <a href="files/subiecte_informatica_limbajul_c_%28sub_3%29.zip">subiecte_informatica_limbajul_c_(sub_3).zip</a></h2>
+ <h2 id="toc1"><a name="x-file:backtracking_proiect.docx file:subiecte_informatica_limbajul_c_(sub_3).zip"></a><a href="/files/backtracking_proiect.docx">backtracking_proiect.docx</a> <a href="/files/subiecte_informatica_limbajul_c_%28sub_3%29.zip">subiecte_informatica_limbajul_c_(sub_3).zip</a></h2>
  <h2 id="toc2"><a name="x-GRILE BACKTRACKING"></a><strong>GRILE BACKTRACKING</strong></h2>
- <a href="files/grile%20backtracking.pdf">grile backtracking.pdf</a>
+ <a href="/files/grile%20backtracking.pdf">grile backtracking.pdf</a>
     </div>
   </body>
 </html>

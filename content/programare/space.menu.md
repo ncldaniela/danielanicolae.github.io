@@ -91,21 +91,21 @@ draft: false
 <hr />
 <span style="color: #0002ff;">SCOALA POSTLICEALA</span><br />
 <strong><span style="color: #43af1a;">Administrator retele locale si de comunicatii</span></strong><br />
-<span style="color: #0b5122;"> <a href="files/SPP_Nivel%203%20avansat_Administrator%20retele%20locale%20si%20de%20comunicatii.doc">SPP</a></span><br />
+<span style="color: #0b5122;"> <a href="/files/SPP_Nivel%203%20avansat_Administrator%20retele%20locale%20si%20de%20comunicatii.doc">SPP</a></span><br />
 <span style="color: #0d8c65;"> CURRICULA</span><br />
-<span style="color: #0002ff;"> <a href="files/CRR_NI-1.DOC"> AN I</a></span><br />
-<span style="color: #0002ff;"> <a href="files/CRR_NI-2.DOC"> AN II</a></span><br />
+<span style="color: #0002ff;"> <a href="/files/CRR_NI-1.DOC"> AN I</a></span><br />
+<span style="color: #0002ff;"> <a href="/files/CRR_NI-2.DOC"> AN II</a></span><br />
 <span style="color: #0002ff;"><a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro/index.php/rezultate/4" rel="nofollow">Materiale de predare</a></span><br />
 <span style="color: #0002ff;"><a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro/index.php/rezultate/5" rel="nofollow">Materiale de invatare</a></span><br />
-<span style="color: #0002ff;"><a href="files/7.Administrator%20retele%20locale%20si%20de%20comunicatii.final.doc">Instrumente de evaluare</a></span><br />
+<span style="color: #0002ff;"><a href="/files/7.Administrator%20retele%20locale%20si%20de%20comunicatii.final.doc">Instrumente de evaluare</a></span><br />
 <strong><span style="color: #0e8e4f;"> Analist programator</span></strong><br />
-<a href="files/SPP_Nivel%203%20avansat_Analist%20programator.doc">SPP</a><br />
+<a href="/files/SPP_Nivel%203%20avansat_Analist%20programator.doc">SPP</a><br />
 <span style="color: #0b7630;">CURRICULA</span><br />
-<span style="color: #0002ff;"> <a href="files/CRR_Nivel%203%20avansat_anul%20I_Analist%20programator.doc"> AN I</a></span><br />
-<a href="files/CRR_Nivel%203%20avansat_anul%20II_Analist%20programator.doc">AN II</a><br />
+<span style="color: #0002ff;"> <a href="/files/CRR_Nivel%203%20avansat_anul%20I_Analist%20programator.doc"> AN I</a></span><br />
+<a href="/files/CRR_Nivel%203%20avansat_anul%20II_Analist%20programator.doc">AN II</a><br />
 <a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro/index.php/rezultate/4" rel="nofollow">Materiale de predare</a><br />
 <a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro/mi_online/" rel="nofollow">Materiale de invatare</a><br />
-<a href="files/2.Analist%20programator.final.doc">Instrumente de evaluare</a><br />
+<a href="/files/2.Analist%20programator.final.doc">Instrumente de evaluare</a><br />
 <a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro" rel="nofollow">http://cndiptfsetic.tvet.ro</a><br />
 <hr />
 <a class="wiki_link" href="MATE%20BAC.html">MATE BAC</a><br />

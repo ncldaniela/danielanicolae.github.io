@@ -7,7 +7,7 @@ draft: false
 <html>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
-<h2 id="toc0"><a name="x-Aplicații practice de laborator file:POO.pdf"></a>Aplicații practice de laborator <a href="files/POO.pdf">POO.pdf</a></h2>
+<h2 id="toc0"><a name="x-Aplicații practice de laborator file:POO.pdf"></a>Aplicații practice de laborator <a href="/files/POO.pdf">POO.pdf</a></h2>
  <h2 id="toc1"><a name="x-Curs programare orientată pe obiecte"></a>Curs programare orientată pe obiecte</h2>
  <br />
 <br />

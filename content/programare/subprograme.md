@@ -614,12 +614,12 @@ M=5 N=1<br />
     </tr>
 </table>
 
-<a href="files/FISA%20DE%20LUCRU%201.doc">FISA DE LUCRU 1.doc</a><br />
+<a href="/files/FISA%20DE%20LUCRU%201.doc">FISA DE LUCRU 1.doc</a><br />
 <br />
-<strong>FISE DE LUCRU</strong> <a href="files/3_FISEdincapitolulsubprograme2009_2010.doc">3_FISEdincapitolulsubprograme2009_2010.doc</a><br />
+<strong>FISE DE LUCRU</strong> <a href="/files/3_FISEdincapitolulsubprograme2009_2010.doc">3_FISEdincapitolulsubprograme2009_2010.doc</a><br />
 <br />
 <br />
-<strong>TESTE<a href="files/TEST_SUBPROGRAME.doc">TEST_SUBPROGRAME.doc</a></strong><br />
+<strong>TESTE<a href="/files/TEST_SUBPROGRAME.doc">TEST_SUBPROGRAME.doc</a></strong><br />
 <br />
 <br />
 <strong>APLICATII</strong> <a class="wiki_link_ext" href="http://info.mcip.ro/?cap=Subprograme" rel="nofollow">http://info.mcip.ro/?cap=Subprograme</a>

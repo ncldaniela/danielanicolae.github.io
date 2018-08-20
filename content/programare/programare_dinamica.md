@@ -122,7 +122,7 @@ for (j=1; j&lt;=i; j++)<br />
 S[i][j]=T[i][j]+S[i+1][j+1]);<br />
 else<br />
 S[i][j]=T[i][j]+S[i+1][j];}<br />
-<a href="files/SUMATRI.cpp">SUMATRI.cpp</a><br />
+<a href="/files/SUMATRI.cpp">SUMATRI.cpp</a><br />
 <em><strong>PROBLEME PROPUSE</strong></em><br />
 <strong><span style="color: #008080;">1. Împărţirea unei mulţimi în 2 submulţimi de sume cât mai apropiate</span></strong><br />
 La sfarsitul noptii de Craciun, Mosul a poposit la bradul a doi frati, unde si-a golit sacul. Cand s-au trezit, fratii au intrat intr-o mare dilema: cum isi vor imparti ei cadourile mosului? Stiind ca fiecare cadou are o valoare (cuprinsa intre 1 si 100 inclusiv) si ca sunt maxim 100 de cadouri scrieti un program care sa determine sumele cadourilor fratilor, precum si modul de impartire, astfel incat sumele obtinute sa fie cele mai apropiate posibil.<br />

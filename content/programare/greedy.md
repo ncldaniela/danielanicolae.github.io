@@ -22,7 +22,7 @@ O întrebare firească este aceea dacă algoritmul Greedy duce totdeauna la solu
 • tehnica Backtracking oferă toate soluţiile problemei, în timp ce Greedy oferă o singură soluţie<br />
 • tehnica Greedy nu dispune de mecanismul întoarcerii, specific tehnicii Backtracking<br />
 <span style="display: block; line-height: 1.5; text-align: justify;"><span style="font-family: 'Times New Roman','serif'; font-size: 24px;">Algoritmi clasici:</span></span><span style="display: block; line-height: 1.5; text-align: justify;"><em><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Problema rucsacului. </span></em></span><span style="display: block; font-family: 'Times New Roman',serif; font-size: 16px; text-align: justify;">Un hot are la dispozitie un rucsac cu care poate transporta o greutate maxima Gmax. Hotul are de ales din n obiecte si intentioneaza sa obtina un castig maxim in urma singurului transport pe care il poate face. Cunoscand, pentru fiecare obiect i greutatea Gi si castigul Ci pe care hotul l-ar obtine transportand obiectul respectiv in intregime, scrieti un program care sa determine o incarcare optima a rucsacului.</span><br />
-<a href="files/rucsac.cpp">rucsac.cpp</a><br />
+<a href="/files/rucsac.cpp">rucsac.cpp</a><br />
 <br />
 <br />
 <span style="display: block; text-align: justify;"><strong><em><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Problema platii unui salariu. </span></em></strong><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Sa se plateasca un salariu dat cu numar minim de monezi, daca se cunosc tipurile de monezi existente. Monedele sunt in numar nelimitat (variante cu/fara atingerea solutiei optime).</span></span><br />
@@ -112,10 +112,10 @@ cin&gt;&gt;h&gt;&gt;m; sfarsit[i]=h*60+m;} <em>ordonez spectacolele crescator du
 <br />
 <strong><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Problema comis-voiajorului. </span></strong><br />
 <span style="display: block; font-family: 'Times New Roman',serif; font-size: 16px; text-align: justify;">Se cunosc distantele dintre mai multe orase. Un comis-voiajor pleaca dintr-un oras si doreste sa se intoarca in acelasi oras, dupa ce a vizitat fiecare din celelalte orase exact o data. Problema este de a minimiza lungimea drumului parcurs. (Indicatie. La fiecare pas se alege orasul nou, cel mai apropiat).</span><br />
-<a href="files/comis.cpp">comis.cpp</a><br />
+<a href="/files/comis.cpp">comis.cpp</a><br />
 <strong><span style="font-family: 'Calibri','sans-serif'; font-size: 14.6667px;">Problema</span> partitiilor de numere prime</strong>// Se da un sir de numere naturale citite pe rand pana la intalnirea numarului 0.Sa se determine un grup maxim de elemente ale sirului cu proprietatea ca elementele sunt numerele prime iar suma lor e egala cu cel mult un numar m dat .<br />
 <br />
-<span style="display: block; text-align: justify;"><a href="files/part.cpp">part.cpp</a></span>
+<span style="display: block; text-align: justify;"><a href="/files/part.cpp">part.cpp</a></span>
     </div>
   </body>
 </html>

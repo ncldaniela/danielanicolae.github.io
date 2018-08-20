@@ -8,8 +8,8 @@ draft: false
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h1 id="toc0"><a name="NOŢIUNI INTRODUCTIVE. DEFINIŢII"></a><span style="color: #008000;">NOŢIUNI INTRODUCTIVE. DEFINIŢII</span></h1>
- <a href="files/Grafuri_orientate.docx">Grafuri_orientate.docx</a><br />
-<a href="files/GRAFURI_ORIENTATE.pdf">GRAFURI_ORIENTATE.pdf</a>
+ <a href="/files/Grafuri_orientate.docx">Grafuri_orientate.docx</a><br />
+<a href="/files/GRAFURI_ORIENTATE.pdf">GRAFURI_ORIENTATE.pdf</a>
     </div>
   </body>
 </html>

@@ -33,7 +33,7 @@ cout&lt;&lt;&quot;NU exista drum intre nodul &quot;&lt;&lt;x&lt;&lt;&quot; si no
 getch();<br />
 return 0;<br />
 }</span><br />
-<h1 id="toc1"><a name="file:Conexitate în grafuri neorientate.pptx"></a><a href="files/Conexitate%20%C3%AEn%20grafuri%20neorientate.pptx">Conexitate în grafuri neorientate.pptx</a></h1>
+<h1 id="toc1"><a name="file:Conexitate în grafuri neorientate.pptx"></a><a href="/files/Conexitate%20%C3%AEn%20grafuri%20neorientate.pptx">Conexitate în grafuri neorientate.pptx</a></h1>
  <h2 id="toc2"> </h2>
  <h2 id="toc3"><a name="file:Conexitate în grafuri neorientate.pptx-CONEXITATE IN GRAFURI NEORIENTATE"></a><span style="color: #24913c;">CONEXITATE IN GRAFURI NEORIENTATE</span></h2>
  

@@ -8,7 +8,7 @@ draft: false
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <h1 id="toc0"><a name="NOŢIUNI INTRODUCTIVE. DEFINIŢII"></a><span style="color: #008000;">NOŢIUNI INTRODUCTIVE. DEFINIŢII</span></h1>
- <h1 id="toc1"><a name="file:Grafuri_neorientate.doc"></a><a href="files/Grafuri_neorientate.doc">Grafuri_neorientate.doc</a></h1>
+ <h1 id="toc1"><a name="file:Grafuri_neorientate.doc"></a><a href="/files/Grafuri_neorientate.doc">Grafuri_neorientate.doc</a></h1>
  <br />
 <h1 id="toc2"><a name="METODE DE REPREZENTARE"></a><span style="color: #008000;">METODE DE REPREZENTARE</span></h1>
  <span style="display: block; font-family: Tahoma,sans-serif; font-size: 10.6667px; text-align: justify;">Există mai multe moduri de reprezentare a grafurilor, alegerea făcându-se în funcţie de tipurile de operaţii care urmează să se efectueze:</span><br />

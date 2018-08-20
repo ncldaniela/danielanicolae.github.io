@@ -7,10 +7,10 @@ draft: false
 <html>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
-<a href="files/1.%20Functionarea%20echipamentelor%20intr-o%20retea%20locala.pdf">1. Functionarea echipamentelor intr-o retea locala.pdf</a> <a href="files/huburi%20versus%20switch-uri%20versus%20routere.docx">huburi versus switch-uri versus routere.docx</a><br />
+<a href="/files/1.%20Functionarea%20echipamentelor%20intr-o%20retea%20locala.pdf">1. Functionarea echipamentelor intr-o retea locala.pdf</a> <a href="/files/huburi%20versus%20switch-uri%20versus%20routere.docx">huburi versus switch-uri versus routere.docx</a><br />
 <br />
-<a href="files/2.%20Medii%20de%20comunicare%20prin%20fire%20de%20cupru.pdf">2. Medii de comunicare prin fire de cupru.pdf</a> <a href="files/3.%20Medii%20de%20comunicare%20prin%20fibra%20optica.pdf">3. Medii de comunicare prin fibra optica.pdf</a><br />
-<a href="files/Fisa_Tema3.doc">Fisa_Tema3.doc</a> <a href="files/MP6_Comunicarea%20intr-o%20retea%20locala%20%28LAN%29%20-%20partea%202.doc">MP6_Comunicarea intr-o retea locala (LAN) - partea 2.doc</a><br />
+<a href="/files/2.%20Medii%20de%20comunicare%20prin%20fire%20de%20cupru.pdf">2. Medii de comunicare prin fire de cupru.pdf</a> <a href="/files/3.%20Medii%20de%20comunicare%20prin%20fibra%20optica.pdf">3. Medii de comunicare prin fibra optica.pdf</a><br />
+<a href="/files/Fisa_Tema3.doc">Fisa_Tema3.doc</a> <a href="/files/MP6_Comunicarea%20intr-o%20retea%20locala%20%28LAN%29%20-%20partea%202.doc">MP6_Comunicarea intr-o retea locala (LAN) - partea 2.doc</a><br />
 <br />
 <a class="wiki_link_ext" href="http://cndiptfsetic.tvet.ro/mi_online/lectii/MI7MOD8IA/interfata.html" rel="nofollow">SUPORT DE INVATARE ONLINE</a><br />
 <a class="wiki_link_ext" href="http://windows.microsoft.com/ro-ro/windows/hubs-switches-routers-access-points-differ#1TC=windows-7&amp;section_3" rel="nofollow">Cum diferă huburile, switchurile, ruterele și punctele de acces?</a><br />

@@ -8,7 +8,7 @@ draft: false
 <html>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
-<a href="files/Referinte%20si%20Pointeri.pdf">Referinte si Pointeri.pdf</a>
+<a href="/files/Referinte%20si%20Pointeri.pdf">Referinte si Pointeri.pdf</a>
     </div>
   </body>
 </html>

@@ -33,7 +33,7 @@ draft: false
 <h1 id="toc3"><a name="Rularea programelor"></a><u><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Rularea programelor</span></u></h1>
  <span style="font-family: 'Times New Roman',serif;">- daca programul este cuprins într-un proiect, se selecteaza din <strong>Project Manager</strong> si se alege comanda <strong>Run</strong>.</span><br />
 <span style="font-family: 'Times New Roman',serif;">- Din meniul <strong>Program</strong> se alege comanda <strong>Do</strong></span><br />
-<span style="font-family: 'Times New Roman',serif;">- Se foloseşte butonul de execuţie din bara de instrumente <img src="files/external-1bef85c6d9df8188c556bb52f08c92a8https://domnultudor.wikispaces.com/site/embedthumbnail/placeholder?w=200&amp;h=50" alt="external image placeholder?w=200&amp;h=50" title="external image placeholder?w=200&amp;h=50" style="height: 50px; width: 200px;" /></span><br />
+<span style="font-family: 'Times New Roman',serif;">- Se foloseşte butonul de execuţie din bara de instrumente <img src="/files/external-1bef85c6d9df8188c556bb52f08c92a8https://domnultudor.wikispaces.com/site/embedthumbnail/placeholder?w=200&amp;h=50" alt="external image placeholder?w=200&amp;h=50" title="external image placeholder?w=200&amp;h=50" style="height: 50px; width: 200px;" /></span><br />
 <span style="font-family: 'Times New Roman',serif;">- în fereastra de comenzi se foloseste comanda <strong>DO</strong></span><br />
 <span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif;">DO <em>ProgramName1</em> | <em>ProcedureName</em> [IN <em>ProgramName2</em>] [WITH <em>ParameterList</em>]</span></strong></span><br />
 <br />

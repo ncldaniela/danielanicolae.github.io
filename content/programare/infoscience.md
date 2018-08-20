@@ -7,7 +7,7 @@ draft: false
 <html>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
-<a href="files/structura%20repetitiva.ppt">structura repetitiva.ppt</a><br />
+<a href="/files/structura%20repetitiva.ppt">structura repetitiva.ppt</a><br />
 <a class="wiki_link_ext" href="http://infoscience.3x.ro/c++.html" rel="nofollow" target="_blank">http://infoscience.3x.ro/c++.html</a><br />
 <br />
 <span style="color: #3333ff;">Algoritmi</span><br />

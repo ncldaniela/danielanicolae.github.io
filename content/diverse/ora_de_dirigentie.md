@@ -16,7 +16,7 @@ draft: false
 <br />
 <h2 id="toc3"><a name="x-Ghid de prezentare la un interviu descarcat de aici"></a>Ghid de prezentare la un interviu descarcat de aici</h2>
  <a class="wiki_link_ext" href="http://www.europass-ro.ro/index.php?page=materiale" rel="nofollow" target="_blank">http://www.europass-ro.ro/index.php?page=materiale</a><br />
-<a href="files/pregatire_interviu.ppt">pregatire_interviu.ppt</a>
+<a href="/files/pregatire_interviu.ppt">pregatire_interviu.ppt</a>
     </div>
   </body>
 </html>

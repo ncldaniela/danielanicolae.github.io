@@ -50,19 +50,19 @@ draft: false
 
 <table class="wiki_table">
     <tr>
-        <td><a href="files/creare.cpp">creare.cpp</a><br />
+        <td><a href="/files/creare.cpp">creare.cpp</a><br />
 </td>
-        <td><a href="files/liste_simplu_inlantuite1.doc">liste_simplu_inlantuite1.doc</a><br />
-</td>
-    </tr>
-    <tr>
-        <td><a href="files/liste_simplu_inlantuite.cxx">liste_simplu_inlantuite.cxx</a><br />
-</td>
-        <td><a href="files/liste_simplu_inlantuite2.doc">liste_simplu_inlantuite2.doc</a><br />
+        <td><a href="/files/liste_simplu_inlantuite1.doc">liste_simplu_inlantuite1.doc</a><br />
 </td>
     </tr>
     <tr>
-        <td style="text-align: center;"><a href="files/liste_dublu.cpp">liste_dublu.cpp</a><br />
+        <td><a href="/files/liste_simplu_inlantuite.cxx">liste_simplu_inlantuite.cxx</a><br />
+</td>
+        <td><a href="/files/liste_simplu_inlantuite2.doc">liste_simplu_inlantuite2.doc</a><br />
+</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><a href="/files/liste_dublu.cpp">liste_dublu.cpp</a><br />
 </td>
         <td><br />
 </td>
@@ -70,7 +70,7 @@ draft: false
 </table>
 
 <h2 id="toc18"><a name="liste dublu inlantuite-GRILE"></a><span style="color: #008000;">GRILE</span></h2>
- <h2 id="toc19"><a name="liste dublu inlantuite-file:Grile_alocare_dinamica_C++.doc"></a><a href="files/Grile_alocare_dinamica_C%2B%2B.doc">Grile_alocare_dinamica_C++.doc</a></h2>
+ <h2 id="toc19"><a name="liste dublu inlantuite-file:Grile_alocare_dinamica_C++.doc"></a><a href="/files/Grile_alocare_dinamica_C%2B%2B.doc">Grile_alocare_dinamica_C++.doc</a></h2>
 
     </div>
   </body>

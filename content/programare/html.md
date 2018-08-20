@@ -29,61 +29,61 @@ De asemenea aici se stabileste daca se doreste ca site-ul sa se adreseze si clie
     <tr>
         <td style="text-align: center;">LECTIA 1<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia1.doc">lectia1.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia1.doc">lectia1.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 2<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%202.doc">lectia 2.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%202.doc">lectia 2.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 3<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia3.doc">lectia3.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia3.doc">lectia3.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 4<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%204.doc">lectia 4.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%204.doc">lectia 4.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 5<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%205.doc">lectia 5.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%205.doc">lectia 5.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 6<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%206.doc">lectia 6.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%206.doc">lectia 6.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 7<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%207.doc">lectia 7.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%207.doc">lectia 7.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 8<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%208.doc">lectia 8.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%208.doc">lectia 8.doc</a><br />
 </td>
     </tr>
     <tr>
         <td style="text-align: center;">LECTIA 9<br />
 </td>
-        <td style="text-align: center;"><a href="files/lectia%209.doc">lectia 9.doc</a><br />
+        <td style="text-align: center;"><a href="/files/lectia%209.doc">lectia 9.doc</a><br />
 </td>
     </tr>
 </table>
 
 <h1 id="toc7"><a name="EXEMPLU DE SITE HTML"></a>EXEMPLU DE SITE HTML</h1>
- <a href="files/site_exemplu_html.zip">site_exemplu_html.zip</a>
+ <a href="/files/site_exemplu_html.zip">site_exemplu_html.zip</a>
     </div>
   </body>
 </html>
