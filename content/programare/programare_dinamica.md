@@ -1,16 +1,10 @@
 ---
-title: "Metode si Tehnici Clasice de Programare"
+title: "Programarea Dinamica"
 date: 2018-08-20T03:16:20+03:00
 draft: false
 ---
 
-
 <html>
-  <head>
-    <title>DomnulTudor - PROGRAMAREA DINAMICA</title>
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  </head>
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: center;"><strong><span style="font-family: 'Arial','sans-serif'; font-size: 18.6667px;">Programare Dinamica</span></strong></span><br />
