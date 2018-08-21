@@ -30,7 +30,7 @@ draft: false
  <span style="font-family: 'Times New Roman',serif;">Înainte de a modifica un program, acesta trebuie redeschis prin una din urmatoarele metode:</span><br />
 <span style="font-family: 'Times New Roman',serif;">- pentru programele cuprinse într-un proiect, se selecteaza în <strong>Project Manager</strong> si se alege comanda <strong>Modify</strong></span><br />
 <span style="font-family: 'Times New Roman',serif;">- în meniul <strong>File</strong> se alege comanda <strong>Open</strong>. Din lista <strong>Files of Type</strong> se alege <strong>Program</strong>, se selecteaza fisierul de modificat si se alege comanda <strong>Open</strong>.</span><br />
-<span style="font-family: 'Times New Roman',serif;">- Se foloseste comanda <strong>MODIFY COMMAND</strong> în care se specifica numele programului sau parametrul &quot;?&quot;.</span><br />
+<span style="font-family: 'Times New Roman',serif;">- Se foloseste comanda <strong>MODIFY COMMAND</strong> în care se specifica numele programului sau parametrul "?".</span><br />
 <h1 id="toc3"><a name="Rularea programelor"></a><u><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Rularea programelor</span></u></h1>
  <span style="font-family: 'Times New Roman',serif;">- daca programul este cuprins într-un proiect, se selecteaza din <strong>Project Manager</strong> si se alege comanda <strong>Run</strong>.</span><br />
 <span style="font-family: 'Times New Roman',serif;">- Din meniul <strong>Program</strong> se alege comanda <strong>Do</strong></span><br />
@@ -51,27 +51,27 @@ draft: false
 <span style="color: #0000ff; font-family: 'Times New Roman',serif; font-size: 12pt;"> var= ”Continutul variabilei var” </span><br />
 <span style="color: #0000ff; font-family: 'Times New Roman',serif; font-size: 12pt;"> ? a &amp;&amp; se afisaza <strong>var</strong> </span><br />
 <span style="color: #0000ff; font-family: 'Times New Roman',serif; font-size: 12pt;"> ? &amp;a &amp;&amp; rezultatul afisarii este <strong>Continutul variabilei var</strong> ? var &amp;&amp; rezultatul afisarii este <strong>Continutul variabilei var</strong> </span><br />
-<strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.:</span></strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;"> Dezavantajul este ca apare o problema de performanta pentru compilator, in sensul ca linia pe care apare, trebuie compilata &quot;din mers&quot; in momentul rularii.</span><br />
+<strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.:</span></strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;"> Dezavantajul este ca apare o problema de performanta pentru compilator, in sensul ca linia pe care apare, trebuie compilata "din mers" in momentul rularii.</span><br />
 <br />
 <strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Comenzi pentru afişarea variabilelor de memorie existente la un moment dat:</span></strong><br />
 <br />
-<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">LIST / DISPLAY MEMORY [NOCONSOLE][TO PRINTER [PROMPT]| TO FILE &lt;file&gt;]</span></strong></span><br />
+<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">LIST / DISPLAY MEMORY [NOCONSOLE][TO PRINTER [PROMPT]| TO FILE <file>]</span></strong></span><br />
 <br />
 <span style="display: block; text-align: center;"><span style="font-family: 'Times New Roman',serif;">Manipularea datelor</span></span><br />
 <strong><u><span style="font-family: 'Times New Roman',serif;">a) Operatori</span></u></strong><br />
 <span style="display: block; text-align: justify;"><span style="font-family: 'Times New Roman',serif;">Operatoriiutilizati pentru a crea expresii în Visual FoxPro sunt <strong>operatori aritmetici, operatori relationali</strong>, <strong>operatori logici, operatori specifici şirurilor de caractere</strong>: concatenare (+,-) apartenenta $, etc, <strong>operatori specifici datelor calendaristice</strong>: adunare sau scadere numar de zile dintr-o data calendaristica, compararea a doua date.</span></span><br />
 <strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;">Exemplu:</span></strong><br />
 <strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;">1.</span></strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;"> Fie urmatoarele valori de tip caracter stocate în variabilele v1 si v2:</span><br />
-<span style="color: #0000ff; font-family: 'Times New Roman',serif;"> v1= &quot;Univ. &quot; şi v2=&quot;Stefan Cel Mare&quot;</span><br />
-<strong><em><span style="color: #0000ff; font-family: 'Times New Roman',serif;">Expresia:</span></em></strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;"> ? v1+v2 va avea ca efect afişarea pe ecran a valorii &quot; Univ. Stefan Cel Mare&quot;</span><br />
+<span style="color: #0000ff; font-family: 'Times New Roman',serif;"> v1= "Univ. " şi v2="Stefan Cel Mare"</span><br />
+<strong><em><span style="color: #0000ff; font-family: 'Times New Roman',serif;">Expresia:</span></em></strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;"> ? v1+v2 va avea ca efect afişarea pe ecran a valorii " Univ. Stefan Cel Mare"</span><br />
 <strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;">2. </span></strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;"> Daca variabilele v1 si v2 au valorile următoare: </span><br />
-<span style="color: #0000ff; font-family: 'Times New Roman',serif;"> v1= &quot; Str. Univ. &quot; şi v2=21</span><br />
+<span style="color: #0000ff; font-family: 'Times New Roman',serif;"> v1= " Str. Univ. " şi v2=21</span><br />
 <strong><em><span style="color: #0000ff; font-family: 'Times New Roman',serif;">Expresia:</span></em></strong><span style="color: #0000ff; font-family: 'Times New Roman',serif;"> ? v1+v2 va avea ca efect afisarea pe ecran a unui mesaj de eroare.</span><br />
 <span style="display: block; text-align: center;"><br />
 </span><br />
 <strong><u><span style="font-family: 'Times New Roman',serif;">b) Comenzi</span></u></strong><br />
 <span style="font-family: 'Times New Roman',serif;">Fiecare comandă determină executarea unei acţiuni. Sintaxa generala a unei comenzi este:</span><br />
-<strong><span style="font-family: 'Times New Roman',serif;">Verb</span></strong><span style="font-family: 'Times New Roman',serif;"> &lt;clauza,&gt;&lt; clauza &gt;..</span><br />
+<strong><span style="font-family: 'Times New Roman',serif;">Verb</span></strong><span style="font-family: 'Times New Roman',serif;"> <clauza,>< clauza >..</span><br />
 <span style="font-family: 'Times New Roman',serif;">Unde: verb indica acţiunea ce trebuie executată iar clauzele sunt opţionale si furnizează informaţii suplimentare legate de modul cum se va executa actiunea</span><br />
 <span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif;">Daca o comanda este scrisa pe mai mult de o linie, atunci la sfarsitul fiecarei linii intermedare se va plasa simbolul “;”.</span></strong></span><br />
 <br />
@@ -82,16 +82,16 @@ draft: false
 <span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Aceasta categorie de comenzi cuprinde urmatoarele instructiuni:</span><br />
 <span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif;">(1)</span></strong><span style="font-family: 'Times New Roman',serif;"> <strong>? <em>Expr1</em> [PICTURE <em>Cod_format</em>] | [FUNCTION <em>Cod_format</em>] |[AT <em>nColumn</em>] [FONT <em>Nume_font</em> [,<em>Dimens_Font</em>]</strong> </span></span><br />
 <strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Efect:</span></strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;"> Afiseaza, pe ecran, valorile uneia sau mai multor expresii Visual FoxPro valide sau le tipareste la imprimanta, daca SET PRINTER este pe ON , conform valorilor clauzelor PICTURE, FUNCTION,etc.</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.: - clauza AT &lt;expN1&gt; defineste coloana unde se afiseaza &lt;expr1&gt;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.: - clauza AT <expN1> defineste coloana unde se afiseaza <expr1>;</span><br />
 <br />
 <strong><u><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">b) Instructiuni de citire de la tastatura.</span></u></strong><br />
-<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">(1) ACCEPT <em>[&lt;cExpr&gt;</em> ] TO <em>&lt;memvar&gt;</em></span></strong></span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Se afiseaza pe ecran valoarea &lt;cExpr&gt; dupa care se asteapta introducerea unui <strong><em>sir de caractere</em></strong>, de la tastatura, ce se atribuie variabilei de memorie &lt;memvar&gt;.</span><br />
+<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">(1) ACCEPT <em>[<cExpr></em> ] TO <em><memvar></em></span></strong></span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Se afiseaza pe ecran valoarea <cExpr> dupa care se asteapta introducerea unui <strong><em>sir de caractere</em></strong>, de la tastatura, ce se atribuie variabilei de memorie <memvar>.</span><br />
 <span style="display: block; text-align: left;"><br />
 </span><br />
-<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">(2) INPUT [&lt;<em>cExpr&gt;</em> ] TO <em>&lt;memvar&gt;</em></span></strong></span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Se afiseaza pe ecran valoarea &lt;cExpr&gt; dupa care se asteapta introducerea unei <strong><em>expresii</em></strong> de la tastatura, a carei valoare se atribuie variabilei de memorie &lt;memvar&gt;.</span><br />
-<strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.:</span></strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;"> - comanda cere obligatoriu introducerea unei expresii; - pentru introducerea constantelor de tip sir sau data calendaristica se vor folosi delimitatorii specifici (&quot;,',[ ], resp. {}).</span><br />
+<span style="display: block; text-align: left;"><strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">(2) INPUT [<<em>cExpr></em> ] TO <em><memvar></em></span></strong></span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Se afiseaza pe ecran valoarea <cExpr> dupa care se asteapta introducerea unei <strong><em>expresii</em></strong> de la tastatura, a carei valoare se atribuie variabilei de memorie <memvar>.</span><br />
+<strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;">Obs.:</span></strong><span style="font-family: 'Times New Roman',serif; font-size: 12pt;"> - comanda cere obligatoriu introducerea unei expresii; - pentru introducerea constantelor de tip sir sau data calendaristica se vor folosi delimitatorii specifici (",',[ ], resp. {}).</span><br />
 <span style="display: block; text-align: left;"><br />
 </span><br />
 <span style="color: #339966; font-family: 'Times New Roman',serif;">-transformarea şirurilor de caractere in valori numerice</span><br />
@@ -103,7 +103,7 @@ draft: false
 <span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;">SET DATE TO DMY|MDY| BRITISH|FRENCH| GERMAN – stabileşte formatul de afişare a datei calendaristice</span><br />
 <strong><span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;">Instructiuni pentru controlul formatului de afişare al ceasului sistem:</span></strong><br />
 <span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;"> SET CLOCK ON | OFF – validează/invalidează afişarea ceasului </span><br />
-<span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;"> SET CLOCK TO [&lt;ROW&gt;,&lt;COL&gt;]- stabileşte poziţia pe ecran în care se va afişa ceasul</span><br />
+<span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;"> SET CLOCK TO [<ROW>,<COL>]- stabileşte poziţia pe ecran în care se va afişa ceasul</span><br />
 <span style="color: #339966; font-family: 'Times New Roman',serif; font-size: 12pt;"> SET HOURS TO [12 | 24] – stabileşte formatul de afişare al orei</span><br />
 <strong><span style="color: #339966; font-family: 'Times New Roman',serif;">Diverse instrucţiuni de configurare</span></strong><br />
 <span style="color: #339966; font-family: 'Times New Roman',serif;"> SET BELL ON/OFF – validează/invalidează alarma sonoră a mediului</span><br />

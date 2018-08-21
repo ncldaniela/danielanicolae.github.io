@@ -18,9 +18,9 @@ draft: false
 <span style="display: block; text-align: justify;"><span style="color: #000000; font-family: 'Arial','sans-serif';">Aplicand aceasta tehnica determinam </span><strong><span style="color: #000000; font-family: 'Arial','sans-serif';">una </span></strong><span style="color: #000000; font-family: 'Arial','sans-serif';">din solutiile optime, problema putand avea mai multe solutii optime. In cazul in care se doreste determinarea tuturor solutiilor optime, algoritmul trebuie combinat cu unul de backtracking in reconstructia solutiilor.</span></span><br />
 <span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">Dupa cum probabil ati intuit deja, diferenta majora dintre cele doua metode prezentate este ca algoritmul greedy mentine doar solutiile partiale de la pasul curent pentru a le folosi la pasul urmator, in timp ce programarea dinamica poate utiliza la un pas subsolutii generate la oricare alt pas anterior.</span><br />
 <span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">Programarea Dinamica poate fi descompusa in urmatoarea secventa de pasi:</span><br />
-<span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">1. Descoperirea structurii si &quot;masurii&quot; pe care o are o solutie optima.</span><br />
+<span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">1. Descoperirea structurii si "masurii" pe care o are o solutie optima.</span><br />
 <span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">2. Determinarea unei metode de calcul recursive pentru a afla valoarea fiecarei subprobleme.</span><br />
-<span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">3. Calcularea &quot;de jos in sus&quot; a acestei valori (de la subproblemele cele mai mici la cele mai mari)</span><br />
+<span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">3. Calcularea "de jos in sus" a acestei valori (de la subproblemele cele mai mici la cele mai mari)</span><br />
 <span style="color: #000000; display: block; font-family: 'Arial','sans-serif'; text-align: justify;">4. Reconstructia solutiei optime pornind de la rezultatele obtinute anterior.</span><br />
 <br />
 <span style="display: block; text-align: justify;"><strong><span style="color: #000000; font-family: 'Arial','sans-serif';">Exemple de probleme:</span></strong></span><br />
@@ -30,30 +30,30 @@ Exemplu: şirul {2, 4, 3, 5, 3, 6} are cel mai lung subsir crescator de lungime 
 <strong>Soluţia problemei nu este unică, dar lungimea maximă a subşirului crescător, da.</strong><br />
 <strong>Vom nota cu L[k] lungimea celui mai lung subşir crescător care începe de la poziţia k şi până la sfârşitul şirului iniţial. Calculăm, pe rând, L[n], L[n-1], L[n-2] … L[2], L[1]. Lungimea celui mai lung subşir crescător va fi dată de cea mai mare valoare a lui L.</strong><br />
 <strong>L[n] = 1</strong><br />
-<strong>L[k] = 1+ max {L[i ], unde k&lt;i≤n şi v[k]≤v[i ]}, k=n-1,1</strong><br />
+<strong>L[k] = 1+ max {L[i ], unde k<i≤n şi v[k]≤v[i ]}, k=n-1,1</strong><br />
 <br />
-<em>#include&lt;fstream.h&gt;</em><br />
+<em>#include<fstream.h></em><br />
 <em>int v[10000],n,i,L[1000],max,mx,k,t;</em><br />
 <em>void main(){</em><br />
-<em>fstream f(&quot;subsir.txt&quot;,ios::in);</em><br />
-<em>for(i=1;i&lt;=n;i++) f&gt;&gt;v[i];</em><br />
+<em>fstream f("subsir.txt",ios::in);</em><br />
+<em>for(i=1;i<=n;i++) f>>v[i];</em><br />
 <em>L[n]=1;</em> subsir maxim de lung 1<br />
-for(k=n-1;k&gt;0;k--)<br />
+for(k=n-1;k>0;k--)<br />
 {mx=0;<br />
-for(i=k+1;i&lt;=n;i++)<br />
-if(v[i]&gt;=v[k] &amp;&amp; L[i]&gt;mx)<br />
+for(i=k+1;i<=n;i++)<br />
+if(v[i]>=v[k] &amp;&amp; L[i]>mx)<br />
 mx=L[i];<br />
 L[k]=mx+1;<br />
-if(L[k]&gt;max)<br />
+if(L[k]>max)<br />
 {max=L[k];<br />
 t=k;}<br />
 }<br />
-cout&lt;&lt;&quot;lungimea maxima:&quot;&lt;&lt;max;<br />
+cout<<"lungimea maxima:"<<max;<br />
 <em>afisarea subsirului</em><br />
-<em>cout&lt;&lt;endl&lt;&lt;v[t]&lt;&lt;' ';</em><br />
-<em>for(i=t+1;i&lt;=n;i++)</em><br />
-<em>if ((v[i]&gt;=v[t]) &amp;&amp; (L[i]==max-1))</em><br />
-<em>{cout&lt;&lt;v[i]&lt;&lt;' ';</em><br />
+<em>cout<<endl<<v[t]<<' ';</em><br />
+<em>for(i=t+1;i<=n;i++)</em><br />
+<em>if ((v[i]>=v[t]) &amp;&amp; (L[i]==max-1))</em><br />
+<em>{cout<<v[i]<<' ';</em><br />
 <em>max--;}</em><br />
 <em>}</em><br />
 <strong>2. Subşir comun maximal</strong><br />
@@ -67,25 +67,25 @@ Vom caracteriza substructura optimală a problemei prin următoarea relaţie de 
 <br />
 lcs[k][0]=lcs[0][h]=0, k din {1,2,..,n}, h din {1,2,..,m}<br />
 lcs[k][h]=1+lcs[k-1][h-1], dacă x[k]=y[h]<br />
-max{lcs[k][h-1], lcs[k-1][h]}, dacă x[k]&lt;&gt;y[h]<br />
+max{lcs[k][h-1], lcs[k-1][h]}, dacă x[k]<>y[h]<br />
 <br />
-<em>#include&lt;fstream.h&gt;</em><br />
+<em>#include<fstream.h></em><br />
 <em>int x[100],y[100],n,m;</em><br />
 <em>int lcs[100][100],max;</em><br />
 <br />
 <em>void rezolva(){</em><br />
-<em>for(int k=1;k&lt;=n;k++)</em><br />
-<em>for(int h=1;h&lt;=m;h++)</em><br />
+<em>for(int k=1;k<=n;k++)</em><br />
+<em>for(int h=1;h<=m;h++)</em><br />
 <em>if(x[k]==y[h]) lcs[k][h]=1+lcs[k-1][h-1];</em><br />
 <em>else</em><br />
-<em>if (lcs[k-1][h]&gt;lcs[k][h-1]) lcs[k][h]=lcs[k-1][h];</em><br />
+<em>if (lcs[k-1][h]>lcs[k][h-1]) lcs[k][h]=lcs[k-1][h];</em><br />
 <em>else lcs[k][h]=lcs[k][h-1];</em><br />
 <em>}</em><br />
 <em>void afiseaza_solutie_max(int k,int h){</em><br />
 <em>if(lcs[k][h])</em><br />
 <em>if(x[k]==y[h])</em><br />
 <em>{afiseaza_solutie_max(k-1,h-1);</em><br />
-<em>cout&lt;&lt;x[k]&lt;&lt;' ';}</em><br />
+<em>cout<<x[k]<<' ';}</em><br />
 <em>else</em><br />
 <em>{if (lcs[k][h]==lcs[k-1][h])</em><br />
 <em>afiseaza_solutie_max(k-1,h);</em><br />
@@ -94,15 +94,15 @@ max{lcs[k][h-1], lcs[k-1][h]}, dacă x[k]&lt;&gt;y[h]<br />
 <em>}</em><br />
 <em>}</em><br />
 <em>void main(){</em><br />
-<em>ifstream f(&quot;lcs.txt&quot;,ios::in);</em><br />
-<em>f&gt;&gt;n&gt;&gt;m;</em><br />
-<em>for(int i=1;i&lt;=n;i++) f&gt;&gt;x[i];</em><br />
-<em>for(i=1;i&lt;=m;i++) f&gt;&gt;y[i];</em><br />
+<em>ifstream f("lcs.txt",ios::in);</em><br />
+<em>f>>n>>m;</em><br />
+<em>for(int i=1;i<=n;i++) f>>x[i];</em><br />
+<em>for(i=1;i<=m;i++) f>>y[i];</em><br />
 <em>rezolva();</em><br />
 <em>afiseaza_solutie_max(n,m);</em><br />
 <em>}</em><br />
 <strong>3. Sumă maximă în triunghi</strong><br />
-Fie triunghiul format din n linii (1&lt;n&lt;=100), fiecare linie conţinând numere întregi din domeniul [1,99], ca în exemplul următor:<br />
+Fie triunghiul format din n linii (1<n<=100), fiecare linie conţinând numere întregi din domeniul [1,99], ca în exemplul următor:<br />
 <br />
 <table class="captionBox"><tr><td class="captionedImage"><img src="http://i44.tinypic.com/b989aa.png" alt="Image" title="Image" /></td></tr><tr><td class="imageCaption">Image</td></tr></table><br />
 <br />
@@ -116,10 +116,10 @@ Soluţia problemei va fi S[1][1].<br />
 S[n][ i]=T[n][i ], i din {1,2,...,n}<br />
 S[i ][j]=T[i ][j]+max{S[i+1][j], S[i+1][j+1]}<br />
 <em>Secvenţa de program este:</em><br />
-for (i=1; i&lt;=n; i++) S[n][i]=T[n][i];<br />
-for (i=n-1; i&gt;=1; i--)<br />
-for (j=1; j&lt;=i; j++)<br />
-{if (S[i+1][j]&lt;S[i+1][j+1])<br />
+for (i=1; i<=n; i++) S[n][i]=T[n][i];<br />
+for (i=n-1; i>=1; i--)<br />
+for (j=1; j<=i; j++)<br />
+{if (S[i+1][j]<S[i+1][j+1])<br />
 S[i][j]=T[i][j]+S[i+1][j+1]);<br />
 else<br />
 S[i][j]=T[i][j]+S[i+1][j];}<br />

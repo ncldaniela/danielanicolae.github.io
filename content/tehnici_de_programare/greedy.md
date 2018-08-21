@@ -37,23 +37,23 @@ O întrebare firească este aceea dacă algoritmul Greedy duce totdeauna la solu
 <span style="font-family: 'Times New Roman',serif; font-size: 16px; line-height: 1.5; text-align: justify;">Optim ar fi fost:</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px; line-height: 1.5; text-align: justify;">365=3*100+1*50+0*10+5*3</span><br />
 <br />
-#include&lt;iostream&gt;<br />
+#include<iostream><br />
 using namespace std;<br />
 int n,i,aux,ok,s,a[100], nr[100];<br />
 main()<br />
 {<br />
-cout&lt;&lt;&quot;Suma=&quot;;cin&gt;&gt;s;<br />
-cout&lt;&lt;&quot;Numarul de bancnote:&quot;;cin&gt;&gt;n;<br />
-for(i=1;i&lt;=n;i++)<br />
+cout<<"Suma=";cin>>s;<br />
+cout<<"Numarul de bancnote:";cin>>n;<br />
+for(i=1;i<=n;i++)<br />
 {<br />
-cout&lt;&lt;&quot;a[&quot;&lt;&lt;i&lt;&lt;&quot;]=&quot;;cin&gt;&gt;a[i];<br />
+cout<<"a["<<i<<"]=";cin>>a[i];<br />
 nr[i]=i;<br />
 }<br />
 do<br />
 {<br />
 ok=1;<br />
-for(i=1;i&lt;=n-1;i++)<br />
-if(a[nr[i]]&lt;a[nr[i+1]])<br />
+for(i=1;i<=n-1;i++)<br />
+if(a[nr[i]]<a[nr[i+1]])<br />
 {<br />
 aux=nr[i];<br />
 nr[i]=nr[i+1];<br />
@@ -62,18 +62,18 @@ ok=0;<br />
 }<br />
 }<br />
 while(ok==0);<br />
-for(i=1;i&lt;=n;i++)<br />
-cout&lt;&lt;nr[i]&lt;&lt;&quot; &quot;;<br />
+for(i=1;i<=n;i++)<br />
+cout<<nr[i]<<" ";<br />
 i=1;<br />
-cout&lt;&lt;s&lt;&lt;endl;<br />
+cout<<s<<endl;<br />
 do<br />
 {<br />
-if(s/a[nr[i]]&gt;0)<br />
-{cout&lt;&lt;s/a[nr[i]]&lt;&lt;&quot; bancnote cu valoarea &quot;&lt;&lt;a[nr[i]]&lt;&lt;endl;<br />
+if(s/a[nr[i]]>0)<br />
+{cout<<s/a[nr[i]]<<" bancnote cu valoarea "<<a[nr[i]]<<endl;<br />
 s=s%a[nr[i]];}<br />
 i++;<br />
 }<br />
-while(i&lt;=n);<br />
+while(i<=n);<br />
 }<br />
 <strong><span style="line-height: 1.5; text-align: justify;">Problema spectacolelor</span></strong><br />
 <span style="display: block; text-align: justify;">Managerul artistic al unui festival trebuie să selecteze o mulțime cât mai amplă de spectacole ce pot fi jucate în singura sală pe care o are la dispoziție. Ştiind că i s-au propus n≤100 spectacole şi pentru fiecare spectacol i i-a fost anunțat intervalul în care se poate desfăşura [si, fi) (si reprezintă ora şi minutul de început, iar fi ora şi minutul de final al spectacolului i) scrieți un program care să permită spectatorilor vizionarea unui număr cât mai mare de spectacole. De exemplu, dacă vom citi n=5 şi următorii timpi:<br />
@@ -85,30 +85,30 @@ while(i&lt;=n);<br />
 Spectacolele selectate sunt: 5 2 4.<br />
 <strong><u>Soluție</u></strong><br />
 Ordonăm spectacolele crescător după ora de final. Selectăm inițial primul spectacol (deci cel care se termină cel mai devreme). La fiecare pas selectăm primul spectacol neselectat, care nu se suprapune cu cele deja selectate (deci care începe după ce se termină ultimul spectacol selectat).<br />
-#include &lt;iostream.h&gt;<br />
+#include <iostream.h><br />
 int inceput[100], sfarsit[100], nr[100];<br />
 int main()<br />
 {int n, i, h, m, ok, ultim, aux;<br />
-cout &lt;&lt; &quot;n= &quot;; cin &gt;&gt; n; <em>citire</em><br />
-<em>cout&lt;&lt;&quot;Introduceti inceputul si sfarsitul spectacolelor&quot;;</em><br />
-<em>for (i=1; i&lt;=n; i++)</em><br />
+cout << "n= "; cin >> n; <em>citire</em><br />
+<em>cout<<"Introduceti inceputul si sfarsitul spectacolelor";</em><br />
+<em>for (i=1; i<=n; i++)</em><br />
 <em><span style="line-height: 1.5;"> {nr[i]=i; </span></em></span><br />
 transform timpul in minute<br />
-<span style="line-height: 1.5;">cin&gt;&gt;h&gt;&gt;m; inceput[i]=h*60+m;</span><br />
-cin&gt;&gt;h&gt;&gt;m; sfarsit[i]=h*60+m;} <em>ordonez spectacolele crescator dupa ora de final</em><br />
+<span style="line-height: 1.5;">cin>>h>>m; inceput[i]=h*60+m;</span><br />
+cin>>h>>m; sfarsit[i]=h*60+m;} <em>ordonez spectacolele crescator dupa ora de final</em><br />
 <em>do</em><br />
 <em>{ok=1;</em><br />
-<em><span style="line-height: 1.5;">for (i=1; i&lt;n; i++)</span></em><br />
-<em>if (sfarsit[nr[i]]&gt;sfarsit[nr[i+1]])</em><br />
+<em><span style="line-height: 1.5;">for (i=1; i<n; i++)</span></em><br />
+<em>if (sfarsit[nr[i]]>sfarsit[nr[i+1]])</em><br />
 <em>{aux=nr[i];nr[i]=nr[i+1];nr[i+1]=aux; ok=0;}</em><br />
 <em>}</em><br />
 <em>while (ok==0);</em><br />
-<em>cout &lt;&lt; &quot;Spectacolele selectate sunt:&quot;&lt;&lt;nr[1]&lt;&lt;' ';</em><br />
+<em>cout << "Spectacolele selectate sunt:"<<nr[1]<<' ';</em><br />
 <em>ultim=1;</em><br />
-<em>for ( i=2; i&lt;=n; i++)</em><br />
-<em>if (inceput[nr[i]]&gt;=sfarsit[nr[ultim]])</em><br />
-<em>{cout &lt;&lt;nr[i]&lt;&lt;' '; ultim=i;}</em><br />
-<em>cout&lt;&lt;endl;</em><br />
+<em>for ( i=2; i<=n; i++)</em><br />
+<em>if (inceput[nr[i]]>=sfarsit[nr[ultim]])</em><br />
+<em>{cout <<nr[i]<<' '; ultim=i;}</em><br />
+<em>cout<<endl;</em><br />
 <em>return 0;}</em><br />
 <br />
 <strong><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Problema comis-voiajorului. </span></strong><br />

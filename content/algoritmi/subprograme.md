@@ -79,22 +79,22 @@ are formatele:<br />
 </td>
     </tr>
     <tr>
-        <td><ol><li>include &lt;iostream&gt;</li></ol>using namespace std;<br />
+        <td><ol><li>include <iostream></li></ol>using namespace std;<br />
 void f1 ()<br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;abc&quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "abc";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int main ()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> f1();</span><br />
 }<br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">void f1 (int k)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">for (int i=1; i&lt;=k ; i++)</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;abc&quot;&lt;&lt; &quot; &quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">for (int i=1; i<=k ; i++)</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "abc"<< " ";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 int main ()<br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
@@ -127,12 +127,12 @@ int main ()<br />
 </td>
     </tr>
     <tr>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <em><span style="font-family: 'Times New Roman',serif; font-size: 16px;">int prim (int x)</span></em><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{int nr_div;</span><br />
 <span style="font-family: "Times New Roman",serif; font-size: 16px;">nr_div=0;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">for (int i=2; i&lt;=x/2; i++)</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">for (int i=2; i<=x/2; i++)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">if (x%i==0)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">nr_div++;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">if (nr_div==0)</span><br />
@@ -142,29 +142,29 @@ int main ()<br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <strong>int main ()</strong><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{int N;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;N=&quot;; cin &gt;&gt; N;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "N="; cin >> N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">if (prim(N))</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;PRIM&quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "PRIM";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">else</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;NU E PRIM&quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "NU E PRIM";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 </td>
-        <td>include &lt;iostream&gt;<br />
+        <td>include <iostream><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <em><span style="font-family: 'Times New Roman',serif; font-size: 16px;">int prim (int x)</span></em><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{int i;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> for ( i=2; i&lt;=x/2; i++)</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> for ( i=2; i<=x/2; i++)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> if (x%i==0)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> return 0;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> return 1;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <strong>int main ()</strong><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{int N;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout &lt;&lt; &quot;N=&quot;; cin &gt;&gt; N;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout << "N="; cin >> N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> if (prim(N))</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout &lt;&lt; &quot;PRIM&quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout << "PRIM";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;"> else</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout &lt;&lt; &quot;NU E PRIM&quot;;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout << "NU E PRIM";</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 </td>
     </tr>
@@ -191,18 +191,18 @@ int main ()<br />
 </td>
     </tr>
     <tr>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 p( )<br />
 {<br />
-cout &lt;&lt; &quot; abcd&quot;;<br />
+cout << " abcd";<br />
 }<br />
 int main ()<br />
 {<br />
-cout &lt;&lt; p();<br />
+cout << p();<br />
 }<br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 p( )<br />
 {<br />
@@ -210,18 +210,18 @@ return 25;<br />
 }<br />
 int main ()<br />
 {<br />
-cout &lt;&lt; p( );<br />
+cout << p( );<br />
 }<br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 void p( )<br />
 {<br />
-cout &lt;&lt; &quot;void&quot;;<br />
+cout << "void";<br />
 }<br />
 int main ()<br />
 {<br />
-cout &lt;&lt; p();<br />
+cout << p();<br />
 }<br />
 </td>
     </tr>
@@ -236,7 +236,7 @@ cout &lt;&lt; p();<br />
     <tr>
         <td><br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 <span style="color: #ff0000;">int</span> p( )<br />
 {<br />
@@ -244,14 +244,14 @@ return 25;<br />
 }<br />
 int main ()<br />
 {<br />
-cout &lt;&lt; p( );<br />
+cout << p( );<br />
 }<br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 void p( )<br />
 {<br />
-cout &lt;&lt; &quot;abcd&quot;;<br />
+cout << "abcd";<br />
 }<br />
 int main ()<br />
 {<br />
@@ -278,19 +278,19 @@ p();<br />
 
 <table class="wiki_table">
     <tr>
-        <td><span style="font-family: 'Times New Roman',serif; font-size: 16px;"># include &lt;iostream&gt;</span><br />
+        <td><span style="font-family: 'Times New Roman',serif; font-size: 16px;"># include <iostream></span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <br />
 <strong><span style="color: #ff0000; font-family: 'Times New Roman',serif; font-size: 16px;">int max (int, int);</span></strong><br />
 <br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int main ()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout &lt;&lt; max(10, 20);</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;"> cout << max(10, 20);</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <br />
 <strong><span style="color: #548dd4; font-family: 'Times New Roman',serif; font-size: 16px;">int max (int a, int b)</span></strong><br />
 <strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;">{</span></strong><br />
-<strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;"> if (a&gt;b)</span></strong><br />
+<strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;"> if (a>b)</span></strong><br />
 <strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;"> return a;</span></strong><br />
 <strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;"> else</span></strong><br />
 <strong><span style="color: #00b050; font-family: 'Times New Roman',serif; font-size: 16px;"> return b;</span></strong><br />
@@ -330,43 +330,43 @@ sunt declarate în afara oricărei funcţii şi sunt vizibile (pot fi utilizate)
 </td>
     </tr>
     <tr>
-        <td><ol><li>include &lt;iostream&gt;</li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
+        <td><ol><li>include <iostream></li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">void f1()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int x=5;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">N=10;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; endl&lt;&lt;N;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; endl &lt;&lt; x;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << endl<<N;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << endl << x;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int main ()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">N=4;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; N;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">f1();</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 </td>
-        <td><ol><li>include &lt;iostream&gt;</li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
+        <td><ol><li>include <iostream></li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">void f1()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int x=5;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; endl &lt;&lt; x;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << endl << x;</span><br />
 <span style="color: #ff0000; font-family: 'Times New Roman',serif; font-size: 16px;">P=2; </span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 int P=9;<br />
 int main ()<br />
 {f1();<br />
-cout &lt;&lt; x;<br />
+cout << x;<br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">P=7; </span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 </td>
-        <td><ol><li>include &lt;iostream&gt;</li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
+        <td><ol><li>include <iostream></li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int N;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">void f1(int p)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int x=p;</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; x;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << x;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int main ()</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
@@ -406,17 +406,17 @@ Variabilele locale sunt prioritare (ascund) variabilele globale omonime.<br />
 </td>
     </tr>
     <tr>
-        <td><ol><li>include &lt;iostream&gt;</li></ol>using namespace std;<br />
+        <td><ol><li>include <iostream></li></ol>using namespace std;<br />
 int N=10;<br />
 void f1()<br />
 {<br />
 int N=2;<br />
-cout &lt;&lt; N&lt;&lt;&quot; &quot;;<br />
+cout << N<<" ";<br />
 }<br />
 int main ()<br />
 {<br />
 f1();<br />
-cout &lt;&lt; N;<br />
+cout << N;<br />
 }<br />
 </td>
         <td>Variabila N este definită atât ca variabilă globală cât şi ca variabilă locală în f1().<br />
@@ -447,26 +447,26 @@ Se utilizează atunci când dorim ca subprogramul să lucreze cu acea valoare, d
 <strong><span style="font-family: 'Times New Roman',serif;">a)Valorile reţinute de variabile</span></strong>. În acest caz parametrii efectivi trebuie să fie numele variabilelor.<br />
 <br />
 <span style="font-family: 'Times New Roman',serif;"> Exemplu:</span><br />
-#include&lt;iostream.h&gt;<br />
+#include<iostream.h><br />
 void test(int n)<br />
 {<br />
 n++;<br />
-cout&lt;&lt;n&lt;&lt;endl; <em>tipăreşte n=8</em><br />
+cout<<n<<endl; <em>tipăreşte n=8</em><br />
 <em><span style="font-family: 'Times New Roman',serif;">}</span></em><br />
 <em><span style="font-family: 'Times New Roman',serif;">void main()</span></em><br />
 <em><span style="font-family: 'Times New Roman',serif;">{</span></em><br />
 <em><span style="font-family: 'Times New Roman',serif;">int n=7;</span></em><br />
 <em><span style="font-family: 'Times New Roman',serif;">test(n);</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">cout&lt;&lt;n&lt;&lt;endl; </span></em> tipăreşte n=7<br />
+<em><span style="font-family: 'Times New Roman',serif;">cout<<n<<endl; </span></em> tipăreşte n=7<br />
 }<br />
 Parametrul n este transmis prin valoare. În funcţia main() acest parametru este iniţializat cu valoarea 7. Când apelăm funcţia test(), se rezervă spaţiu pe stivă, spaţiu care are numele parametrului formal (în acest caz, tot n) şi care este iniţializat cu valoarea memorată de variabila n a programului principal. Altfel spus, pe stivă se copie valoarea parametrului efectiv de apel. În funcţie, variabila n (care este locală acestei funcţii) este incrementată şi devine 8, valoare care va fi tipărită. La ieşirea din funcţie, variabila n din stivă se pierde, adică nu mai are spaţiu alocat, prin urmare valoarea 8 este pierdută. În main() se tipăreşte valoarea variabilei n (locală acesteia) care are valoarea 7.<br />
 Se observă că, în momentul apelului funcţiei test(), pe stivă sunt alocate două variabile cu acelaşi nume n. Prima variabilă este variabila locală funcţiei main() care se salvează pe stivă în momentul apelului pentru a putea reface contextul funcţiei main() după încheierea apelului. A doua variabilă este parametrul formal tip valoare n, vizibil numai în funcţia test() şi iniţializat în momentul apelului cu valoarea 7. Indiferent ce valori primeşte acest n în corpul funcţiei test(), după încheierea execuţiei acestei funcţii, spaţiul său este de alocat din stivă, adică variabila respectivă este distrusă. Din acest motiv, după execuţia funcţiei test(), conţinutul stivei este cel din dreapta. Se reface contextul din care s-a lansat apelul funcţiei test(), adică se recuperează din stivă valoarea variabilei locale n=7 şi adresa de revenire, adică adresa instrucţiunii cout.<br />
 <span style="font-size: 9pt;"><strong>b)</strong> </span><strong>Expresii.</strong> În acest caz, parametrii efectivi sunt expresii, care pot conţine şi funcţii şi care mai întâi se evaluează. Exemplu:<br />
-#include&lt;iostream.h&gt;<br />
-#include&lt;math.h&gt;<br />
+#include<iostream.h><br />
+#include<math.h><br />
 void test(int n)<br />
 {<br />
-cout&lt;&lt;n&lt;&lt;endl;<br />
+cout<<n<<endl;<br />
 }<br />
 void main()<br />
 {<br />
@@ -487,14 +487,14 @@ test(5); <em>se va tipări 5</em><br />
 
 <table class="wiki_table">
     <tr>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 int a,b;<br />
 void afis<span style="color: #ff0000;">(int a, int b)</span><br />
 {<br />
 a=a+1;<br />
 b=b+4;<br />
-cout&lt;&lt;a&lt;&lt;&quot; &quot;&lt;&lt;b&lt;&lt;endl;<br />
+cout<<a<<" "<<b<<endl;<br />
 }<br />
 <br />
 int main()<br />
@@ -502,19 +502,19 @@ int main()<br />
 a=1;<br />
 b=2;<br />
 afis(a,b);<br />
-cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b&lt;&lt; endl;<br />
+cout <<a<<" " <<b<< endl;<br />
 }<br />
 </td>
         <td><br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 int a,b;<br />
 void afis<span style="color: #ff0000;">(int &amp;a, int &amp;b)</span><br />
 {<br />
 a=a+1;<br />
 b=b+4;<br />
-cout&lt;&lt;a&lt;&lt;&quot; &quot;&lt;&lt;b&lt;&lt;endl;<br />
+cout<<a<<" "<<b<<endl;<br />
 }<br />
 <br />
 int main()<br />
@@ -522,28 +522,28 @@ int main()<br />
 a=1;<br />
 b=2;<br />
 afis(a,b);<br />
-cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b&lt;&lt; endl;<br />
+cout <<a<<" " <<b<< endl;<br />
 }<br />
 </td>
         <td><br />
 </td>
-        <td>#include &lt;iostream&gt;<br />
+        <td>#include <iostream><br />
 using namespace std;<br />
 int a,b;<br />
 void afis(<span style="color: #ff0000;">int &amp;m, int n)</span><br />
 {<br />
 m=m+1;<br />
 n=n+4;<br />
-cout&lt;&lt;m&lt;&lt;&quot; &quot;&lt;&lt;n&lt;&lt;endl;<br />
+cout<<m<<" "<<n<<endl;<br />
 }<br />
 <br />
 int main()<br />
 {<br />
 a=1;<br />
 b=2;<br />
-cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b&lt;&lt; endl;<br />
+cout <<a<<" " <<b<< endl;<br />
 afis(a,b);<br />
-cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b;<br />
+cout <<a<<" " <<b;<br />
 }<br />
 </td>
     </tr>
@@ -580,7 +580,7 @@ cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b;<br />
 </td>
     </tr>
     <tr>
-        <td><ol><li>include &lt;iostream&gt;</li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
+        <td><ol><li>include <iostream></li></ol><span style="font-family: 'Times New Roman',serif; font-size: 16px;">using namespace std;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">void schimba_valoare (int x, int y)</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int z=x;</span><br />
@@ -597,9 +597,9 @@ cout &lt;&lt;a&lt;&lt;&quot; &quot; &lt;&lt;b;<br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">{</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">int M=1, N=5;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">schimba_valoare(M,N);</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;M=&quot;&lt;&lt;M&lt;&lt; &quot; &quot; &lt;&lt; &quot;N=&quot;&lt;&lt;N&lt;&lt;endl;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "M="<<M<< " " << "N="<<N<<endl;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">schimba_referinta(M,N);</span><br />
-<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout &lt;&lt; &quot;M=&quot;&lt;&lt;M&lt;&lt; &quot; &quot; &lt;&lt; &quot;N=&quot;&lt;&lt;N&lt;&lt;endl;</span><br />
+<span style="font-family: 'Times New Roman',serif; font-size: 16px;">cout << "M="<<M<< " " << "N="<<N<<endl;</span><br />
 <span style="font-family: 'Times New Roman',serif; font-size: 16px;">}</span><br />
 </td>
         <td>APEL PRIN VALOARE<br />

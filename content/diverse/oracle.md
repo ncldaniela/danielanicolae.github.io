@@ -37,9 +37,9 @@ Exemple:<br />
 <span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">update</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> tProduse </span><span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">set</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> pret</span><span style="color: #808080; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">=</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">pret</span><span style="color: #808080; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">*</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">0.95 where codProd in (select codProd from tProduse where categoria = ‘Alimentare’)</span><br />
 <br />
 <span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">update</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> tProduse </span><span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">set</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> pret=CASE</span><br />
-<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret&lt;100 then pret*1.1</span><br />
-<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret&lt;200 then pret*1.08</span><br />
-<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret&lt;300 then pret*1.05</span><br />
+<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret<100 then pret*1.1</span><br />
+<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret<200 then pret*1.08</span><br />
+<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> When pret<300 then pret*1.05</span><br />
 <span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> Else pret*1.03</span><br />
 <span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> END</span><br />
 <br />
@@ -102,9 +102,9 @@ De exemplu următoarea comandă şterge toate înregistrările pentru care gradu
 <br />
 <span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">DELETE tDetaliiBon </span><br />
 <span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">from tBonuriConsum A inner join tDetaliiBon B on A.NrBon=B.NrBon </span><br />
-<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">where dataBon &lt;'01/01/2008'</span><br />
+<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">where dataBon <'01/01/2008'</span><br />
 <br />
-<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">DELETE tBonuriConsum where dataBon &lt;'01/01/2008'</span><br />
+<span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;">DELETE tBonuriConsum where dataBon <'01/01/2008'</span><br />
 <br />
 <span style="text-align: justify;"><span style="font-size: 16px;">Dacă tabelul din care ştergem este implicat în diverse legături cu alte tabele ca partea unu a unei legături unu la multi şi opţiunea delete cascading este activată atunci ştergerea unui rând va genera ştergerea tuturor rândurilor ce corespund la cheie din tabelele secundare corelate.</span></span><br />
 <span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">alter</span><span style="color: #0000ff; font-family: 'Arial','sans-serif'; font-size: 14.6667px;">table</span><span style="font-family: 'Arial','sans-serif'; font-size: 14.6667px;"> tDetaliiBon</span><br />

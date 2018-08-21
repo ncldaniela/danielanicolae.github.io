@@ -16,27 +16,27 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 
 <table class="wiki_table">
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MAX (&lt;e1&gt;,&lt;e2&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MAX (<e1>,<e2>)</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează maximul dintre două valori &lt;e1&gt; şi &lt;e2&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MIN (&lt;e1&gt;,&lt;e2&gt;)</span></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează minimul dintre două valori &lt;e1&gt; şi &lt;e2&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează maximul dintre două valori <e1> şi <e2></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">TYPE(&lt;eC&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MIN (<e1>,<e2>)</span></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează minimul dintre două valori <e1> şi <e2></span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">TYPE(<eC>)</span></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce litera corespunzătoare tipului de dată.</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">IIF(&lt;eL&gt;,&lt;e1&gt;,&lt;e2&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">IIF(<eL>,<e1>,<e2>)</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce &lt;e1&gt; dacă &lt;eL&gt; este adevărat şi &lt;e2&gt;în caz contrar</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce <e1> dacă <eL> este adevărat şi <e2>în caz contrar</span></span><br />
 </td>
     </tr>
 </table>
@@ -57,49 +57,49 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 
 <table class="wiki_table">
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">ABS (&lt;eN&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">ABS (<eN>)</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează valoarea absolută din &lt;eN&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">SQRT (&lt;eN&gt;)</span></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează radical din &lt;eN&gt; (strict pozitiv)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează valoarea absolută din <eN></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">ROUND (&lt;eN1&gt;,&lt;eN2&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">SQRT (<eN>)</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">&lt;eN1&gt; este rotunjită la zecimala dată de &lt;eN2&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MOD (&lt;eN1&gt;,&lt;eN2&gt;)</span></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează restul împărţirii întregi a lui &lt;eN1&gt; la &lt;eN2&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează radical din <eN> (strict pozitiv)</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">INT (&lt;eN&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">ROUND (<eN1>,<eN2>)</span></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;"><eN1> este rotunjită la zecimala dată de <eN2></span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">MOD (<eN1>,<eN2>)</span></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">calculează restul împărţirii întregi a lui <eN1> la <eN2></span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">INT (<eN>)</span></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce un întreg rezultat prin trunchierea zecimalelor</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">CEILING (&lt;eN&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">CEILING (<eN>)</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce cel mai mic întreg mai mare sau egal cu argumentul &lt;eN&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">FLOOR (&lt;eN&gt;)</span></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce cel mai mare întreg mai mic sau egal cu argumentul &lt;eN&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce cel mai mic întreg mai mare sau egal cu argumentul <eN></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">SIGN (&lt;eN&gt;)</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">FLOOR (<eN>)</span></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce cel mai mare întreg mai mic sau egal cu argumentul <eN></span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">SIGN (<eN>)</span></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce valoarea –1 pentru argument negativ, 1 pentru argument pozitiv şi 0 pentru argument nul.</span></span><br />
 </td>
@@ -111,9 +111,9 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">STR (&lt;eN1&gt;[,&lt;eN2&gt; [,&lt;eN3&gt;]])</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">STR (<eN1>[,<eN2> [,<eN3>]])</span></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">conversia între tipul numeric şi tipul şir: &lt;eN1&gt; este numărul, &lt;eN2&gt; este lungimea, &lt;eN3&gt; numărul de poziţii pe care se va face reprezentarea părţii zecimale.</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">conversia între tipul numeric şi tipul şir: <eN1> este numărul, <eN2> este lungimea, <eN3> numărul de poziţii pe care se va face reprezentarea părţii zecimale.</span></span><br />
 </td>
     </tr>
 </table>
@@ -193,84 +193,84 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 
 <table class="wiki_table">
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SUBSTR </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;, &lt;eN1&gt;,&lt;eN2&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SUBSTR </span></strong><strong><span style="font-size: 11pt;">(<eC>, <eN1>,<eN2>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage un subşir din şirul &lt;eC&gt; începând cu </span></span><br />
-<span style="text-align: justify;"><span style="font-size: 11pt;">caracterul de pe poziţia &lt;eN1&gt; pe lungime</span></span><br />
-<span style="text-align: justify;"><span style="font-size: 11pt;"> &lt;eN2&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LEFT </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;, &lt;eN&gt;)</span></strong></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage primele &lt;eN&gt; caractere din şirul &lt;eC&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage un subşir din şirul <eC> începând cu </span></span><br />
+<span style="text-align: justify;"><span style="font-size: 11pt;">caracterul de pe poziţia <eN1> pe lungime</span></span><br />
+<span style="text-align: justify;"><span style="font-size: 11pt;"> <eN2></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">RIGHT </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;, &lt;eN&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LEFT </span></strong><strong><span style="font-size: 11pt;">(<eC>, <eN>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage ultimele &lt;eN&gt; caractere din şirul &lt;eC&gt;</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LEN </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce lungimea şirului &lt;eC&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage primele <eN> caractere din şirul <eC></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">REPLICATE </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;, &lt;eN&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">RIGHT </span></strong><strong><span style="font-size: 11pt;">(<eC>, <eN>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce un şir având &lt;eC&gt; multiplicat de </span></span><br />
-<span style="text-align: justify;"><span style="font-size: 11pt;">&lt;eN&gt; ori</span></span><br />
-</td>
-    </tr>
-    <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SPACE </span></strong><strong><span style="font-size: 11pt;">(&lt;eN&gt;)</span></strong></span><br />
-</td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">Întoarce un şir de &lt;eN&gt; spaţii</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage ultimele <eN> caractere din şirul <eC></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LTRIM </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LEN </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">elimină spaţiile de la stânga şirului &lt;eC&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce lungimea şirului <eC></span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">REPLICATE </span></strong><strong><span style="font-size: 11pt;">(<eC>, <eN>)</span></strong></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce un şir având <eC> multiplicat de </span></span><br />
+<span style="text-align: justify;"><span style="font-size: 11pt;"><eN> ori</span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SPACE </span></strong><strong><span style="font-size: 11pt;">(<eN>)</span></strong></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">Întoarce un şir de <eN> spaţii</span></span><br />
+</td>
+    </tr>
+    <tr>
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LTRIM </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
+</td>
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">elimină spaţiile de la stânga şirului <eC></span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">ex.: LTRIM(’MIA’)=”MIA”</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">RTRIM </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)/ TRIM (&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">RTRIM </span></strong><strong><span style="font-size: 11pt;">(<eC>)/ TRIM (<eC>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">elimină spaţiile de la dreapta şirului &lt;eC&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">elimină spaţiile de la dreapta şirului <eC></span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">ex.: RTRIM(“MAI”’)=”MAI”</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">AT </span></strong><strong><span style="font-size: 11pt;">(&lt;eC1&gt;, &lt;eC2&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">AT </span></strong><strong><span style="font-size: 11pt;">(<eC1>, <eC2>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce poziţiile şirului &lt;eC1&gt; în &lt;eC2&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce poziţiile şirului <eC1> în <eC2></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISALPHA </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISALPHA </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">testează dacă şirul începe cu o literă</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISLOWER </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISLOWER </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">testează dacă şirul începe cu minusculă</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISUPPER </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">ISUPPER </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">testează dacă şirul începe cu majusculă </span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LOWER </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">LOWER </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">transformă şirul în minuscule </span></span><br />
 </td>
@@ -282,19 +282,19 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">STUFF </span></strong><strong><span style="font-size: 11pt;">(&lt;eC1&gt;,&lt;eN1&gt;, &lt;eN2&gt;, &lt;eC2&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">STUFF </span></strong><strong><span style="font-size: 11pt;">(<eC1>,<eN1>, <eN2>, <eC2>)</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><span style="font-size: 11pt;">înlocuieşte în &lt;eC1&gt; începând cu poziţia &lt;eN1&gt; un subşir de lungime &lt;eN2&gt; prin şirul &lt;eC2&gt;</span></span><br />
+        <td><span style="text-align: justify;"><span style="font-size: 11pt;">înlocuieşte în <eC1> începând cu poziţia <eN1> un subşir de lungime <eN2> prin şirul <eC2></span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">CTOD </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">CTOD </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">realizează conversia unui şir la data calendaristică </span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">VAL </span></strong><strong><span style="font-size: 11pt;">(&lt;eC&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">VAL </span></strong><strong><span style="font-size: 11pt;">(<eC>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">realizează conversia unui şir la număr</span></span><br />
 </td>
@@ -360,12 +360,12 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 
 <table class="wiki_table">
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SET DATE [TO] &lt;format&gt; </span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SET DATE [TO] <format> </span></strong></span><br />
 </td>
     </tr>
 </table>
 
-<span style="text-align: justify;"><span style="font-size: 11pt;">unde &lt;format&gt; poate fi: AMERICAN / GERMAN / ANSI / ITALIAN / DMY /BRITISH /JAPAN /FRENCH /USA /MDY /YMD</span></span><br />
+<span style="text-align: justify;"><span style="font-size: 11pt;">unde <format> poate fi: AMERICAN / GERMAN / ANSI / ITALIAN / DMY /BRITISH /JAPAN /FRENCH /USA /MDY /YMD</span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">Formatul AMERICAN prezintă data calendaristică sub forma: ll/zz/aa.; formatul GERMAN sub forma zz.ll.aa., etc.</span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">Includerea secolului în formatul de dată este determinată de starea comutatorului SET CENTURY ON/<u>OFF</u>. Implicit este OFF.</span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">Indicarea semnului folosit ca separator al informaţiilor de tip dată calendaristică este dat de comanda SET MARK. Implicit separatorul este dat de formatul de reprezentare. De exemplu formatul AMERICAN foloseşte ca separator ”/”.</span></span><br />
@@ -373,12 +373,12 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 
 <table class="wiki_table">
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SET DATE TO &lt;car&gt; </span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">SET DATE TO <car> </span></strong></span><br />
 </td>
     </tr>
 </table>
 
-<span style="text-align: justify;"><span style="font-size: 11pt;">unde &lt;car&gt; reprezintă un singur caracter ce va fi folosit ca separator al informaţiilor din data calendaristică.</span></span><br />
+<span style="text-align: justify;"><span style="font-size: 11pt;">unde <car> reprezintă un singur caracter ce va fi folosit ca separator al informaţiilor din data calendaristică.</span></span><br />
 <span style="text-align: justify;"> </span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">Operaţii care se pot face cu datele calendaristice sunt:</span></span><br />
 <span style="text-align: justify;"><span style="font-size: 11pt;">- compararea a două date se realizează prin operatorii relaţionali:</span></span><br />
@@ -396,25 +396,25 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DAY </span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DAY </span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage nr. zilei din dată</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">MONTH</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">MONTH</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage nr. lunii din dată</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">CMONTH</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">CMONTH</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce numele lunii </span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">YEAR</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">YEAR</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">extrage anul din data calendaristică</span></span><br />
 </td>
@@ -426,25 +426,25 @@ T<em><span style="font-size: 12pt;">ipuri de date şi funcţii standard</span></
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DTOS</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DTOS</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce data sub forma ‘secol – an lună zi’</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DMY</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DMY</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce data sub forma ‘zi nume-lună an’</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">MDY</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">MDY</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">întoarce data sub forma ‘nume – lună zi an’</span></span><br />
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DTOC</span></strong><strong><span style="font-size: 11pt;">(&lt;eD&gt;)</span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-size: 11pt;">DTOC</span></strong><strong><span style="font-size: 11pt;">(<eD>)</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><span style="font-size: 11pt;">conversie data la şir</span></span><br />
 </td>

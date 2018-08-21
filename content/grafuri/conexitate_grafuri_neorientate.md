@@ -16,24 +16,26 @@ draft: false
 using namespace std;
 
 int main() {
-  int n,i,a[100][100],j,k,x,y;
-  cout<<"n=";cin>>n;
-  for(i=1;i<=n;i++)
-  for(j=1;j<=n;j++)
-  {cout<<"a["<<i<<"]["<<j<<"]=";
-  cin>>a[i][j];
-  }
-  for(k=1;k<=n;k++)
-    for(i=1;i<=n;i++)
-      for(j=1;j<=n;j++)
-        if(a[i][j]==0 && i!=k && j!=k)
-          a[i][j]=a[i][k]*a[k][j];
-          cout<<"Nodul initial:";cin>>x;
-        cout<<"Nodul final:";cin>>y;
-  if(a[x][y]==1)
-    cout<<"Exista drum intre nodul "<<x<<" si nodul "<<y<<".";
+  int n, i, a[100][100], j, k, x, y;
+  cout << "n=";
+  cin >> n;
+  for (i = 1; i <= n; i++)
+    for (j = 1; j <= n; j++) {
+      cout << "a[" << i << "][" << j << "]=";
+      cin >> a[i][j];
+    }
+  for (k = 1; k <= n; k++)
+    for (i = 1; i <= n; i++)
+      for (j = 1; j <= n; j++)
+        if (a[i][j] == 0 && i != k && j != k) a[i][j] = a[i][k] * a[k][j];
+  cout << "Nodul initial:";
+  cin >> x;
+  cout << "Nodul final:";
+  cin >> y;
+  if (a[x][y] == 1)
+    cout << "Exista drum intre nodul " << x << " si nodul " << y << ".";
   else
-    cout<<"NU exista drum intre nodul "<<x<<" si nodul "<<y<<".";
+    cout << "NU exista drum intre nodul " << x << " si nodul " << y << ".";
   getch();
   return 0;
 }
@@ -44,54 +46,57 @@ int main() {
  <h2 id="toc3"><a name="file:Conexitate în grafuri neorientate.pptx-CONEXITATE IN GRAFURI NEORIENTATE"></a><span style="color: #24913c;">CONEXITATE IN GRAFURI NEORIENTATE</span></h2>
  
 ```c++
-#include<fstream>
+#include <fstream>
 
 using namespace std;
 
-int k,m,n,x[100],a[100][100],p[100];
+int k, m, n, x[100], a[100][100], p[100];
 
-fstream f("date.in",ios::in);
-fstream g("date.out",ios::out);
+fstream f("date.in", ios::in);
+fstream g("date.out", ios::out);
 
-void citire()
- {int x,y;
-  f>>n>>m;
-  for(int i=1;i<=m;i++)
-   {f>>x>>y;
-    a[x][y]=1;
-    a[y][x]=1;
-   }
- }
-
-void rw()
- {int i, j, k;
-  for(k=1;k<=n;k++)
-   for(i=1;i<=n;i++)
-    for(j=1;j<=n;j++)
-   if(i!=j)
-   if(a[i][j]==0)
-   a[i][j]=a[i][k]*a[k][j];
- }
- 
- void afis()
-  {for(int i=1;i<=n;i++)
-    if(!p[i])
-    { g<<i<<" ";
-      p[i]=1;
-      for(int j=1; j<=n; j++)
-         if(a[i][j]) { g<<j<<" "; p[j]=1;}
-      g<<endl;
-   }
+void citire() {
+  int x, y;
+  f >> n >> m;
+  for (int i = 1; i <= m; i++) {
+    f >> x >> y;
+    a[x][y] = 1;
+    a[y][x] = 1;
   }
+}
 
-int main()
-  {citire();
-   rw();
-   afis();
-   f.close();
-   g.close();
-   return 0;
-  }
+void rw() {
+  int i, j, k;
+  for (k = 1; k <= n; k++)
+    for (i = 1; i <= n; i++)
+      for (j = 1; j <= n; j++)
+        if (i != j)
+          if (a[i][j] == 0) 
+            a[i][j] = a[i][k] * a[k][j];
+}
+
+void afis() {
+  for (int i = 1; i <= n; i++)
+    if (!p[i]) {
+      g << i << " ";
+      p[i] = 1;
+      for (int j = 1; j <= n; j++)
+        if (a[i][j]) {
+          g << j << " ";
+          p[j] = 1;
+        }
+      g << endl;
+    }
+}
+
+int main() {
+  citire();
+  rw();
+  afis();
+  f.close();
+  g.close();
+  return 0;
+}
 ```
 
   </body>

@@ -22,7 +22,7 @@ draft: false
 <span style="color: #0000ff; display: block; font-family: "Courier New"; font-size: 13.3333px; text-align: justify;">{if(n==0) return 1;</span><br />
 <span style="color: #0000ff; display: block; font-family: "Courier New"; font-size: 13.3333px; text-align: justify;">else return factorial(n-1)*n;}</span><br />
 <span style="color: #0000ff; display: block; font-family: "Courier New"; font-size: 13.3333px; text-align: justify;">void main()</span><br />
-<span style="color: #0000ff; display: block; font-family: "Courier New"; font-size: 13.3333px; text-align: justify;">{cout&lt;&lt;factorial(5) ;}</span><br />
+<span style="color: #0000ff; display: block; font-family: "Courier New"; font-size: 13.3333px; text-align: justify;">{cout<<factorial(5) ;}</span><br />
 <span style="display: block; text-align: justify;"><span style="font-family: 'Times New Roman','serif'; font-size: 16px;">Se observa ca functia factorial se autoapeleaza. Autoapelul se realizeaza prininstructiunea</span><span style="color: #0000ff; font-family: 'Courier New'; font-size: 13.3333px;">return factorial(n-1)*n</span><span style="font-family: 'Courier New'; font-size: 13.3333px;">.</span></span><br />
 <span style="display: block; font-family: "Times New Roman",serif; font-size: 16px; text-align: justify;">Sa vedem care este mecanismul prin care subprogramele se pot autoapela. Se stie ca la apelul fiecarui subprogram, se genereaza un nou nivel in segmentul de stiva, corespunzator acelui apel. Pe acel nivel se memoreaza :</span><br />
 <span style="display: block; font-family: "Times New Roman",serif; font-size: 16px; text-align: justify;">- valorile parametrilor transmisi prin valoare</span><br />
@@ -45,30 +45,30 @@ O gandire recursiva exprima concentrat o anumita stare, care se repeta la infini
 <h1 id="toc0"><a name="Functia iterativa"></a>Functia iterativa</h1>
  <span style="font-family: 'Courier New'; font-size: 13.3333px;">int f(int n)</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">{int i=1, P=1;</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;"> while <strong><span style="color: #ff0000;">(i&lt;=n)</span></strong></span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;"> while <strong><span style="color: #ff0000;">(i<=n)</span></strong></span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;"> {P=P*i ;</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;"> i++ ;}</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">return P ;}</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;"> void main()</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">{int n=5;</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout&lt;&lt;f(n);}</span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout<<f(n);}</span><br />
 <h1 id="toc1"><a name="Functia recursiva 1"></a>Functia recursiva 1</h1>
  <span style="font-family: 'Courier New'; font-size: 13.3333px;">int n;</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">int f(int i)</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;">{if <strong><span style="color: #ff0000;">(i&lt;=n)</span></strong></span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;">{if <strong><span style="color: #ff0000;">(i<=n)</span></strong></span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;"> return i*f(i+1);</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">else return 1 ;}</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">void main()</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">{n=5;</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout&lt;&lt;f(1);}</span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout<<f(1);}</span><br />
 <h1 id="toc2"><a name="Functia recursiva 2"></a>Functia recursiva 2</h1>
  <span style="font-family: 'Courier New'; font-size: 13.3333px;">int f(int i)</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;">{if (i&gt;1)</span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;">{if (i>1)</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;"> return i*f(i-1);</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">else return 1 ;}</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">void main()</span><br />
 <span style="font-family: 'Courier New'; font-size: 13.3333px;">{int n=5;</span><br />
-<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout&lt;&lt;f(n);}</span><br />
+<span style="font-family: 'Courier New'; font-size: 13.3333px;"> cout<<f(n);}</span><br />
 Observati ca la primele doua subprograme conditia de continuare (a iteratiei respectiv a autoapelului este aceeasi)<br />
 <strong><span style="color: #ff0000;">Recomandare</span></strong> : inainte de elaborarea algoritmilor recusivi generati mai intai subprogramul iterativ apoi treceti-l in subprogram recursiv.<br />
 <h2 id="toc3"><a name="Functia recursiva 2-TESTE GRILA"></a>TESTE GRILA</h2>

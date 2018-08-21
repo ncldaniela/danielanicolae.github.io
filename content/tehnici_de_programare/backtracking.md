@@ -16,7 +16,7 @@ draft: false
 <span style="color: #ed4040; display: block; font-family: 'Courier New',Courier,monospace; font-size: 10pt; text-align: center;"><strong>APLICATII</strong></span><br />
 <span style="font-size: 10pt;">1. </span><strong><em><span style="font-family: Arial,sans-serif;">Dintr-un numar de 6 cursuri opţionale un elev trebuie să aleagă 3. Să se afişeze toate posibilităţile de alegere precum şi numarul lor.</span></em></strong><br />
 <br />
-<strong><em><span style="font-family: Arial,sans-serif;">2.Lui IRINEL îi plac nr. formate numai din cifre pare cifre aflate în ordine descrescătoare. Să se determine şi să se afişeze pe ecran toate nr. de n cifre (0&lt;n&lt;10) care îi plac lui Irinel. Valoarea lui n este un nr. natural care se citeşte de la tastatură.{ex.: n=3 200; 220; 222; 400; 402; 422; 440; 442; 444; 600; 620; 622; 640; 644; 660; 662; 664; 666; 800; 820; 822; 840; 842; 844; 860; 862; 864; 866; 880; 882; 884; 886; 888.} </span></em></strong><br />
+<strong><em><span style="font-family: Arial,sans-serif;">2.Lui IRINEL îi plac nr. formate numai din cifre pare cifre aflate în ordine descrescătoare. Să se determine şi să se afişeze pe ecran toate nr. de n cifre (0<n<10) care îi plac lui Irinel. Valoarea lui n este un nr. natural care se citeşte de la tastatură.{ex.: n=3 200; 220; 222; 400; 402; 422; 440; 442; 444; 600; 620; 622; 640; 644; 660; 662; 664; 666; 800; 820; 822; 840; 842; 844; 860; 862; 864; 866; 880; 882; 884; 886; 888.} </span></em></strong><br />
 <br />
 <span style="font-size: 10pt;">3.</span><strong><span style="font-family: Arial,sans-serif; font-size: 10pt;">Problema celor n dame. </span></strong><span style="font-family: Arial,sans-serif; font-size: 10pt;">Fiind dată o tablă de şah n</span><span style="font-family: Symbol; font-size: 10pt;">´</span><span style="font-family: Arial,sans-serif; font-size: 10pt;">n se cer toate soluţiile de aranjare a n dame, astfel încât să nu se afle două dame pe aceeaşi linie, coloană sau diagonală (damele să nu se atace reciproc).</span><br />
 <br />
@@ -52,13 +52,13 @@ ex.n=5<br />
 
 <table class="wiki_table">
     <tr>
-        <td>10. Se citeste de la tastatura un numar natural n par, n&lt;30. Sa se genereze si sa se afiseze pe ecran toate combinatiile de n paranteze rotunde care se închid corect. De exemplu, pentru n=4 se obtin urmatoarele combinatii: ( ( ) ) si ( ) ( ) .<a href="/files/PARANTEZE.CPP">PARANTEZE.CPP</a><br />
+        <td>10. Se citeste de la tastatura un numar natural n par, n<30. Sa se genereze si sa se afiseze pe ecran toate combinatiile de n paranteze rotunde care se închid corect. De exemplu, pentru n=4 se obtin urmatoarele combinatii: ( ( ) ) si ( ) ( ) .<a href="/files/PARANTEZE.CPP">PARANTEZE.CPP</a><br />
 </td>
     </tr>
 </table>
 
 <br />
-11.Se citeste un numar natural n&lt;30. Sa se afiseze toate modalitatile de a-l calcula prin adunari sau scaderi ale numerelor 1,2, ...n. Fiecare numar de la 1 la n va aparea o singura data în descompunerea lui n. Daca acest lucru nu este posibil, se va afisa mesajul „Imposibil”.<br />
+11.Se citeste un numar natural n<30. Sa se afiseze toate modalitatile de a-l calcula prin adunari sau scaderi ale numerelor 1,2, ...n. Fiecare numar de la 1 la n va aparea o singura data în descompunerea lui n. Daca acest lucru nu este posibil, se va afisa mesajul „Imposibil”.<br />
 Exemplu:<br />
 5=1+2+3+4-5<br />
 5=1-2-3+4+5<br />

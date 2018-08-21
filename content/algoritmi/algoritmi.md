@@ -58,7 +58,7 @@ draft: false
 <span style="font-family: 'Comic Sans MS';"> 2.operatori aritmetici aditivi :+(adunare)si –(scadere ).</span><br />
 <br />
 <span style="color: #003300; font-family: 'Comic Sans MS';">Operatori relationali</span><br />
-<span style="font-family: 'Comic Sans MS';"> Opertorii relationali descriu relatia de ordine sau de egalitate dintre cei doi operanzi:&lt;(mai mic),&gt;(mai mare),&lt;=(mai mic sau egal).&gt;=”(mai mare sau egal),=(egal),!=(diferit ).</span><br />
+<span style="font-family: 'Comic Sans MS';"> Opertorii relationali descriu relatia de ordine sau de egalitate dintre cei doi operanzi:<(mai mic),>(mai mare),<=(mai mic sau egal).>=”(mai mare sau egal),=(egal),!=(diferit ).</span><br />
 <br />
 <span style="color: #ff5050; font-family: 'Comic Sans MS';">Operatori logici </span><br />
 <span style="font-family: 'Comic Sans MS';"> Operatori logici definesc o operatie logica :negatia logica - !;conjunctie logica – si ;disjunctie logica - sau .Efectul acestor operatori este cel usual ,invatat la logica ,matematica .Il reamintim in tabelul urmator:</span><br />
@@ -187,7 +187,7 @@ Are două forme:<br />
 <span style="font-family: 'Comic Sans MS'; line-height: 1.5;">pentru_K=Vc , Vf executa</span><br />
 <span style="font-family: 'Comic Sans MS';"> instructiune</span><br />
 <span style="font-family: 'Comic Sans MS';"> sfarsit_pentru </span><br />
-<span style="font-family: 'Comic Sans MS';">MECANISM DE FUNCTIONARE : se initializeaza K ( contorul ) cu o valoare initiala . Se evalueaza contorul K&lt;_Vf . Daca e adevarat , se realizeaza prelucrarea si creste contorul initial cu o unitate , daca nu , se iese din structura.</span><br />
+<span style="font-family: 'Comic Sans MS';">MECANISM DE FUNCTIONARE : se initializeaza K ( contorul ) cu o valoare initiala . Se evalueaza contorul K<_Vf . Daca e adevarat , se realizeaza prelucrarea si creste contorul initial cu o unitate , daca nu , se iese din structura.</span><br />
 <br />
 <strong><em><u><span style="color: #ff0000; font-family: 'Comic Sans MS';">Obs:</span></u></em></strong><span style="font-family: 'Comic Sans MS';"> Se efectueaza in mod repetat o singura prelucrare , mai multe prelucrari fiind incluse-ntr-o structura bloc.</span><br />
 <span style="font-family: 'Comic Sans MS'; line-height: 1.5;">Aplicatii:</span><br />
@@ -222,10 +222,10 @@ Are două forme:<br />
 <br />
 <span style="color: #ff0000; font-family: 'Comic Sans MS';">Simulare numerica :</span><br />
 <span style="font-family: 'Comic Sans MS';">n=3 , P=1 , x=2 , -1 , 3</span><br />
-<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1&lt;_3 (a) , x=2 , 2&gt;0 (a) , P=1*2=2 , i=1+1=2</span><br />
-<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2&lt;_3 (a) , x=-1 , -1&gt;0 (f) , S=-1 , i=1+2=3</span><br />
-<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3&lt;_3 (a) , x=3 , 3&gt;0 (a) , P=2*3=6 , i=3+1=4</span><br />
-<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4&lt;3(f) scrie -1 , 6</span><br />
+<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1<_3 (a) , x=2 , 2>0 (a) , P=1*2=2 , i=1+1=2</span><br />
+<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2<_3 (a) , x=-1 , -1>0 (f) , S=-1 , i=1+2=3</span><br />
+<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3<_3 (a) , x=3 , 3>0 (a) , P=2*3=6 , i=3+1=4</span><br />
+<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4<3(f) scrie -1 , 6</span><br />
 <span style="display: block; text-align: left;"><br />
 </span><span style="display: block; text-align: left;"><strong><u><span style="color: #0000ff;">STRUCTURA “CAT TIMP”</span></u></strong></span><br />
 <span style="font-family: 'Comic Sans MS';">SCOP : permite executarea unei prelucrari cat timp o conditie e indeplinita . Este o structura cu test initial si numar necunoscut de iteratii.( test initial=se efectueaza mai intai testul conditiei si apoi prelucrarea , numar necunoscut de iteratii= programatorul nu cunoaste la momentul scrierii programului de cate ori se repeta prelucrarea respectiva )</span><br />
@@ -254,10 +254,10 @@ Are două forme:<br />
 <span style="font-family: 'Comic Sans MS';"> scrie S</span><br />
 <span style="color: #99cc00; font-family: 'Comic Sans MS';">Simulare numerica:</span><br />
 <span style="font-family: 'Comic Sans MS';">Po n=3 , S=0 , i=1</span><br />
-<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1&lt;_3 (a) , S=0+1=1 , i=1+1=2 </span><br />
-<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2&lt;_3 (a) , S=1+2=3 , i=1+2=3</span><br />
-<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3&lt;_3 (a) , S=3+3=6 , i=3+1=4</span><br />
-<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4&lt;_3 (f) , scrie 6.</span><br />
+<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1<_3 (a) , S=0+1=1 , i=1+1=2 </span><br />
+<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2<_3 (a) , S=1+2=3 , i=1+2=3</span><br />
+<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3<_3 (a) , S=3+3=6 , i=3+1=4</span><br />
+<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4<_3 (f) , scrie 6.</span><br />
 <br />
 <span style="font-family: 'Comic Sans MS';">2.)Calculati produsul a n valori citite de la tastatura.</span><br />
 <span style="color: #333399; font-family: 'Comic Sans MS';"> Rezolvare :</span><br />
@@ -265,17 +265,17 @@ Are două forme:<br />
 <span style="font-family: 'Comic Sans MS';">citeste n</span><br />
 <span style="font-family: 'Comic Sans MS';">P=1</span><br />
 <u><span style="font-family: 'Comic Sans MS';">i=1</span></u><br />
-<span style="font-family: 'Comic Sans MS';">cat_timp i&lt;_n executa</span><br />
+<span style="font-family: 'Comic Sans MS';">cat_timp i<_n executa</span><br />
 <span style="font-family: 'Comic Sans MS';"> citeste x</span><br />
 <span style="font-family: 'Comic Sans MS';"> P=P*x</span><br />
 <span style="font-family: 'Comic Sans MS';"> i=i+1</span><br />
 <span style="font-family: 'Comic Sans MS';"> sfarsit cat timp</span><br />
 <span style="color: #008000; font-family: 'Comic Sans MS';">Simulare numerica:</span><br />
 <span style="font-family: 'Comic Sans MS';">Po n=3 , x=2,4,6 , P=1</span><br />
-<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1&lt;_3 (a) , x=2 , P=1*2=2 , i=1+1=2</span><br />
-<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2&lt;_3 (a) , x=4 , P=2*4=8 , i=1+2=3</span><br />
-<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3&lt;_3 (a) , x=6 , P=6*8=48 , i=1+3=4</span><br />
-<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4&lt;_3 (f) , scrie 48.</span><br />
+<span style="font-family: 'Comic Sans MS';">P1 i=1 , 1<_3 (a) , x=2 , P=1*2=2 , i=1+1=2</span><br />
+<span style="font-family: 'Comic Sans MS';">P2 i=2 , 2<_3 (a) , x=4 , P=2*4=8 , i=1+2=3</span><br />
+<span style="font-family: 'Comic Sans MS';">P3 i=3 , 3<_3 (a) , x=6 , P=6*8=48 , i=1+3=4</span><br />
+<span style="font-family: 'Comic Sans MS';">P4 i=4 , 4<_3 (f) , scrie 48.</span><br />
 <br />
 <span style="color: #ff0000; font-family: 'Comic Sans MS';">RETINETI!</span><br />
 <br />
@@ -302,7 +302,7 @@ Are două forme:<br />
 <span style="font-family: 'Comic Sans MS';">Intreg n,s,c</span><br />
 <span style="font-family: 'Comic Sans MS';">Citeste n</span><br />
 <span style="font-family: 'Comic Sans MS';">S=0</span><br />
-<span style="font-family: 'Comic Sans MS';">Cat timp n&gt;0 executa</span><br />
+<span style="font-family: 'Comic Sans MS';">Cat timp n>0 executa</span><br />
 <span style="font-family: 'Comic Sans MS';">C=n%10</span><br />
 <span style="font-family: 'Comic Sans MS';"> S=s+c</span><br />
 <span style="font-family: 'Comic Sans MS';"> N=n/10</span><br />
@@ -311,10 +311,10 @@ Are două forme:<br />
 <br />
 <span style="color: #33cccc; font-family: 'Comic Sans MS';">Simulare numerica:</span><br />
 <span style="font-family: 'Comic Sans MS';">P0:n=123,s=0</span><br />
-<span style="font-family: 'Comic Sans MS';">P1:123&gt;0 A, c=123?%10=3,s=0+3,n=123/10=12</span><br />
-<span style="font-family: 'Comic Sans MS';">P2:n=12&gt;0 A,c=12%10=2,s=3+2=5,n=1/10=1</span><br />
-<span style="font-family: 'Comic Sans MS';">P3:n=1&gt;0 A,c=1%10=1,s=5+1=6,n=1/10=0</span><br />
-<span style="font-family: 'Comic Sans MS';">P4:n=0&gt;0 F,scrie s=6</span><br />
+<span style="font-family: 'Comic Sans MS';">P1:123>0 A, c=123?%10=3,s=0+3,n=123/10=12</span><br />
+<span style="font-family: 'Comic Sans MS';">P2:n=12>0 A,c=12%10=2,s=3+2=5,n=1/10=1</span><br />
+<span style="font-family: 'Comic Sans MS';">P3:n=1>0 A,c=1%10=1,s=5+1=6,n=1/10=0</span><br />
+<span style="font-family: 'Comic Sans MS';">P4:n=0>0 F,scrie s=6</span><br />
 <br />
 <span style="font-family: 'Comic Sans MS';">4.)Calculati produsul cifrelor unui numar.</span><br />
 <br />
@@ -322,7 +322,7 @@ Are două forme:<br />
 <span style="font-family: 'Comic Sans MS';">Intreg n,p ,c</span><br />
 <span style="font-family: 'Comic Sans MS';">Citeste n</span><br />
 <span style="font-family: 'Comic Sans MS';">P=1</span><br />
-<span style="font-family: 'Comic Sans MS';">Cat timp n&gt;o executa</span><br />
+<span style="font-family: 'Comic Sans MS';">Cat timp n>o executa</span><br />
 <span style="font-family: 'Comic Sans MS';"> C=n%10</span><br />
 <span style="font-family: 'Comic Sans MS';"> P=p*c</span><br />
 <span style="font-family: 'Comic Sans MS';"> N=n/10</span><br />
@@ -331,10 +331,10 @@ Are două forme:<br />
 <span style="color: #003300; font-family: 'Comic Sans MS';">Simulare numerica:</span><br />
 <br />
 <span style="font-family: 'Comic Sans MS';">P0:n=123,p=1</span><br />
-<span style="font-family: 'Comic Sans MS';">P1:n=123&gt;0 A,c=123%10=3, p=1*3=3,n=123/10=12</span><br />
-<span style="font-family: 'Comic Sans MS';">P2:n=12&gt;0A, c=12%10=2,p=3*2=6,n=12/10=1</span><br />
-<span style="font-family: 'Comic Sans MS';">P3: n=1&gt;0 A,c=1%10=1, p=6*1=6,n=1/10=0</span><br />
-<span style="font-family: 'Comic Sans MS';">P4:n=0&gt;0 F,scrie p=6</span><br />
+<span style="font-family: 'Comic Sans MS';">P1:n=123>0 A,c=123%10=3, p=1*3=3,n=123/10=12</span><br />
+<span style="font-family: 'Comic Sans MS';">P2:n=12>0A, c=12%10=2,p=3*2=6,n=12/10=1</span><br />
+<span style="font-family: 'Comic Sans MS';">P3: n=1>0 A,c=1%10=1, p=6*1=6,n=1/10=0</span><br />
+<span style="font-family: 'Comic Sans MS';">P4:n=0>0 F,scrie p=6</span><br />
 <br />
 <span style="display: block; text-align: left;"><br />
 </span><span style="display: block; text-align: left;"><strong><u><span style="color: #0000ff;">STRUCTURA EXECUTĂ..CAT TIMP</span></u></strong></span><br />

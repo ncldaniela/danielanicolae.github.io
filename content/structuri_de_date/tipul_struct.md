@@ -79,8 +79,8 @@ APLICATII<br />
  <br />
 Vom defini tipul structurat <strong>complex,</strong> care conţine partea reală şi partea imaginară a numărului.<br />
 <br />
-<span style="font-size: 14.6667px;">#include &lt;iostream.h&gt; <strong><em>OPERATII CU NUMERE COMPLEXE</em></strong></span><br />
-<em><span style="font-size: 14.6667px;">#include &lt;conio.h&gt;</span></em><br />
+<span style="font-size: 14.6667px;">#include <iostream.h> <strong><em>OPERATII CU NUMERE COMPLEXE</em></strong></span><br />
+<em><span style="font-size: 14.6667px;">#include <conio.h></span></em><br />
 <br />
 <span style="display: block; text-align: justify;"><strong><span style="font-size: 14.6667px;">struct complex </span></strong></span><br />
 x-partea reala , y-partea imaginara<br />
@@ -88,10 +88,10 @@ x-partea reala , y-partea imaginara<br />
 <strong><span style="font-size: 14.6667px;"> };</span></strong><br />
 <strong><span style="font-size: 14.6667px;">complex a,b,c;</span></strong><br />
 <strong><span style="font-size: 14.6667px;">void afisare(complex e) <em>afisarea unui numar complex</em></span></strong><br />
-<em><span style="font-size: 14.6667px;">{if(e.y&gt;=0)</span></em><br />
-<em><span style="font-size: 14.6667px;"> cout&lt;&lt;e.x&lt;&lt;&quot;+&quot;&lt;&lt;e.y&lt;&lt;&quot;i&quot;&lt;&lt;endl;</span></em><br />
+<em><span style="font-size: 14.6667px;">{if(e.y>=0)</span></em><br />
+<em><span style="font-size: 14.6667px;"> cout<<e.x<<"+"<<e.y<<"i"<<endl;</span></em><br />
 <em><span style="font-size: 14.6667px;"> else</span></em><br />
-<em>cout&lt;&lt;e.x&lt;&lt;e.y&lt;&lt;&quot;i&quot;&lt;&lt;endl;</em><br />
+<em>cout<<e.x<<e.y<<"i"<<endl;</em><br />
 <em>}</em><br />
 <em><strong>void adunare()</strong></em> <strong>adunarea a doua numere complexe</strong><br />
 {c.x=a.x+b.x;<br />
@@ -112,28 +112,28 @@ c.y=a.x*b.y+a.y*b.x;<br />
 c.y=(a.y*b.x-a.x*b.y)/(b.x*b.x+b.y*b.y);<br />
 }<br />
 <strong><span style="font-size: 14.6667px;"> void main()</span></strong><br />
-<span style="font-size: 14.6667px;"> {cout&lt;&lt;&quot;primul numar:&quot;; cin&gt;&gt;a.x&gt;&gt;a.y;</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;al doilea numar:&quot;; cin&gt;&gt;b.x&gt;&gt;b.y;</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;a=&quot;; afisare(a);</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;b=&quot;; afisare(b);</span><br />
+<span style="font-size: 14.6667px;"> {cout<<"primul numar:"; cin>>a.x>>a.y;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"al doilea numar:"; cin>>b.x>>b.y;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"a="; afisare(a);</span><br />
+<span style="font-size: 14.6667px;"> cout<<"b="; afisare(b);</span><br />
 <span style="font-size: 14.6667px;"> adunare();</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;suma=&quot;;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"suma=";</span><br />
 <span style="font-size: 14.6667px;"> afisare(c);</span><br />
 <h3 id="toc2"> </h3>
  <span style="font-size: 14.6667px;"> scadere();</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;diferenta=&quot;;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"diferenta=";</span><br />
 <span style="font-size: 14.6667px;"> afisare(c);</span><br />
 <span style="font-size: 14.6667px;"> inmultire();</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;produsul=&quot;;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"produsul=";</span><br />
 <span style="font-size: 14.6667px;"> afisare(c);</span><br />
 <span style="font-size: 14.6667px;"> impartire();</span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;impartire=&quot;;</span><br />
+<span style="font-size: 14.6667px;"> cout<<"impartire=";</span><br />
 <span style="font-size: 14.6667px;"> afisare(c); </span><br />
 <span style="font-size: 14.6667px;"> getch();</span><br />
 <span style="font-size: 14.6667px;"> }</span><br />
 <h3 id="toc3"><a name="x--2. Pentru n elevi se citesc: numele şi două note la informatică. Să se calculeze media fiecărui elev. Să se afişeze elevii în ordinea descrescătoare a mediilor, iar pentru medii egale, în ordine alfabetică."></a>2. Pentru n elevi se citesc: numele şi două note la informatică. Să se calculeze media fiecărui elev. Să se afişeze elevii în ordinea descrescătoare a mediilor, iar pentru medii egale, în ordine alfabetică.</h3>
- <span style="font-size: 14.6667px;">#include&lt;iostream.h&gt;</span><br />
-<span style="font-size: 14.6667px;">#include&lt;conio.h&gt;</span><br />
+ <span style="font-size: 14.6667px;">#include<iostream.h></span><br />
+<span style="font-size: 14.6667px;">#include<conio.h></span><br />
 <span style="font-size: 14.6667px;">#define MAX 30</span><br />
 <strong><span style="font-size: 14.6667px;">struct elev </span></strong><span style="font-size: 14.6667px;"><em>definirea structurii de date elev</em></span><br />
 <em><strong><span style="font-size: 14.6667px;">{char nume[MAX];</span></strong></em><br />
@@ -147,17 +147,17 @@ c.y=(a.y*b.x-a.x*b.y)/(b.x*b.x+b.y*b.y);<br />
 <strong><span style="font-size: 14.6667px;">void citire() </span></strong><span style="font-size: 14.6667px;"><em>citire date</em></span><br />
 <em><span style="font-size: 14.6667px;">{int i;</span></em><br />
 <em><span style="font-size: 14.6667px;"> clrscr();</span></em><br />
-<em><span style="font-size: 14.6667px;"> for(i=1; i&lt;=n; i++)</span></em><br />
-<em><span style="font-size: 14.6667px;"> {cout&lt;&lt;&quot;numele persoanei:&quot;; cin.get();cin.get(a[i].nume,20,'\n'); </span></em>citeste numele<br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;nota1: &quot;; cin&gt;&gt;a[i].n1; <em>citeste notele</em></span><br />
-<em><span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;nota2: &quot;; cin&gt;&gt;a[i].n2;</span></em><br />
+<em><span style="font-size: 14.6667px;"> for(i=1; i<=n; i++)</span></em><br />
+<em><span style="font-size: 14.6667px;"> {cout<<"numele persoanei:"; cin.get();cin.get(a[i].nume,20,'\n'); </span></em>citeste numele<br />
+<span style="font-size: 14.6667px;"> cout<<"nota1: "; cin>>a[i].n1; <em>citeste notele</em></span><br />
+<em><span style="font-size: 14.6667px;"> cout<<"nota2: "; cin>>a[i].n2;</span></em><br />
 <em><span style="font-size: 14.6667px;"> a[i].media=(((float)a[i].n1+a[i].n2)/2); </span></em>calculeaza media<br />
 <span style="font-size: 14.6667px;"> }</span><br />
 <span style="font-size: 14.6667px;">}</span><br />
 <strong><span style="font-size: 14.6667px;">void afisare() </span></strong><span style="font-size: 14.6667px;"><em>afiseaza datele elevilor</em></span><br />
 <em><span style="font-size: 14.6667px;">{int i;</span></em><br />
-<em><span style="font-size: 14.6667px;"> for(i=1; i&lt;=n; i++)</span></em><br />
-<em><span style="font-size: 14.6667px;"> cout&lt;&lt;a[i].nume &lt;&lt;&quot; &quot;&lt;&lt;a[i].n1&lt;&lt;&quot; &quot;&lt;&lt;a[i].n2&lt;&lt;&quot; &quot;&lt;&lt;a[i].media&lt;&lt;endl;</span></em><br />
+<em><span style="font-size: 14.6667px;"> for(i=1; i<=n; i++)</span></em><br />
+<em><span style="font-size: 14.6667px;"> cout<<a[i].nume <<" "<<a[i].n1<<" "<<a[i].n2<<" "<<a[i].media<<endl;</span></em><br />
 <em><span style="font-size: 14.6667px;"> getch();</span></em><br />
 <em><span style="font-size: 14.6667px;">}</span></em><br />
 <em><strong><span style="font-size: 14.6667px;">void ordonare() </span></strong></em><span style="font-size: 14.6667px;">ordoneaza elevii descrescator după medii, iar la medii egale alfabetic</span><br />
@@ -165,17 +165,17 @@ c.y=(a.y*b.x-a.x*b.y)/(b.x*b.x+b.y*b.y);<br />
 <span style="font-size: 14.6667px;"> elev aux;</span><br />
 <span style="font-size: 14.6667px;"> do{</span><br />
 <span style="font-size: 14.6667px;"> sw=1;</span><br />
-<span style="font-size: 14.6667px;"> for(i=1; i&lt;n; i++)</span><br />
-<span style="font-size: 14.6667px;"> if((a[i+1].media&gt;a[i].media)||(a[i+1].media==a[i].media &amp;&amp; strcmp(a[i+1].nume,a[i].nume)&lt;0))</span><br />
+<span style="font-size: 14.6667px;"> for(i=1; i<n; i++)</span><br />
+<span style="font-size: 14.6667px;"> if((a[i+1].media>a[i].media)||(a[i+1].media==a[i].media &amp;&amp; strcmp(a[i+1].nume,a[i].nume)<0))</span><br />
 <span style="font-size: 14.6667px;"> {aux=a[i+1]; a[i+1]=a[i]; a[i]=aux; sw=0; }</span><br />
 <span style="font-size: 14.6667px;"> } while(!sw);</span><br />
 <span style="font-size: 14.6667px;">}</span><br />
 <strong><span style="font-size: 14.6667px;">void main()</span></strong><br />
 <span style="font-size: 14.6667px;">{ clrscr(); </span><br />
-<span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;n=&quot;;cin&gt;&gt;n; <em>n-nr.elevi</em></span><br />
+<span style="font-size: 14.6667px;"> cout<<"n=";cin>>n; <em>n-nr.elevi</em></span><br />
 <em><span style="font-size: 14.6667px;"> citire(); clrscr(); afisare(); </span></em>citeste datele elevilor<br />
 <span style="font-size: 14.6667px;"> ordonare(); <em>ordoneaza elevii</em></span><br />
-<em><span style="font-size: 14.6667px;"> cout&lt;&lt;&quot;Elevii in ordinea descrescatoare a mediilor&quot;&lt;&lt;endl;</span></em><br />
+<em><span style="font-size: 14.6667px;"> cout<<"Elevii in ordinea descrescatoare a mediilor"<<endl;</span></em><br />
 <em><span style="font-size: 14.6667px;"> afisare(); </span></em>afiseaza datele elevilor<br />
 <span style="font-size: 14.6667px;"> getch();</span><br />
 <span style="font-family: 'Arial','sans-serif';">}</span><br />

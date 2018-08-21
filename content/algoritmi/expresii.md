@@ -12,13 +12,13 @@ draft: false
 <span style="display: block; text-align: justify;">1. Daca a si b sunt variabile numerice a=3, b=10 sa se evalueze urmatoarele expresii:</span><br />
 <span style="display: block; text-align: justify;">a) 2*a – 3*b</span><br />
 <span style="display: block; text-align: justify;">b) sqr(2)+sqr(a+b)</span><br />
-<span style="display: block; text-align: justify;">c) (sqr(a)&lt;b) si (sqr(b)&lt;=100)</span><br />
+<span style="display: block; text-align: justify;">c) (sqr(a)<b) si (sqr(b)<=100)</span><br />
 <span style="display: block; text-align: justify;">d) (a % 2==0) sau (b % 2==0)</span><br />
 <br />
 <span style="display: block; text-align: justify;">2. Daca a=1831 si b=291 sunt doua variabile numerice, evaluati urmatoarele expresii:</span><br />
 <span style="display: block; text-align: justify;">a) (a-b)*a% 10</span><br />
 <span style="display: block; text-align: justify;">b) (sqr(b))% 10</span><br />
-<span style="display: block; text-align: justify;">c) (a / 10 &lt;b) sau (b %10 &lt; a % 10)</span><br />
+<span style="display: block; text-align: justify;">c) (a / 10 <b) sau (b %10 < a % 10)</span><br />
 <br />
 <span style="display: block; text-align: justify;">3. Pentru doua numere reale a si b scrieti o expresie care calculeaza suma dintre media aritmetica si media geometrica a celor doua numere</span><br />
 <br />
