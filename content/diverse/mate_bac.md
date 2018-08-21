@@ -1,6 +1,7 @@
 ---
 title: "Mate Bacalaureat"
 date: 2018-08-20T03:16:20+03:00
+weight: 10
 draft: false
 ---
 

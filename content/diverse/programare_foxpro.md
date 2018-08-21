@@ -1,6 +1,7 @@
 ---
 title: "Programare FoxPRO"
 date: 2018-08-20T03:16:20+03:00
+weight: 12
 draft: false
 ---
 
