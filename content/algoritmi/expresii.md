@@ -32,8 +32,6 @@ draft: false
 <span style="display: block; text-align: justify;"><strong>FISE</strong> <strong>D</strong><strong>E LUCR</strong><strong>U</strong></span><br />
 <br />
 
-{{%attachments style="grey" pattern="EXPRESII.pdf"/%}}
-
 <span style="display: block; text-align: justify;"><a href="/files/EXPRESII.pdf">EXPRESII.pdf</a></span>
     </div>
   </body>
