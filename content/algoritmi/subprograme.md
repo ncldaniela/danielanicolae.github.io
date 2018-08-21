@@ -447,32 +447,36 @@ Se utilizează atunci când dorim ca subprogramul să lucreze cu acea valoare, d
 <strong><span style="font-family: 'Times New Roman',serif;">a)Valorile reţinute de variabile</span></strong>. În acest caz parametrii efectivi trebuie să fie numele variabilelor.<br />
 <br />
 <span style="font-family: 'Times New Roman',serif;"> Exemplu:</span><br />
-#include<iostream.h><br />
-void test(int n)<br />
-{<br />
-n++;<br />
-cout<<n<<endl; <em>tipăreşte n=8</em><br />
-<em><span style="font-family: 'Times New Roman',serif;">}</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">void main()</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">{</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">int n=7;</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">test(n);</span></em><br />
-<em><span style="font-family: 'Times New Roman',serif;">cout<<n<<endl; </span></em> tipăreşte n=7<br />
-}<br />
+
+```c++
+#include <iostream.h>
+void test(int n) {
+  n++;
+  cout << n << endl;  // tipăreşte n=8
+}
+void main() {
+  int n = 7;
+  test(n);
+  cout << n << endl;  // tipăreşte n=7
+}
+```
 Parametrul n este transmis prin valoare. În funcţia main() acest parametru este iniţializat cu valoarea 7. Când apelăm funcţia test(), se rezervă spaţiu pe stivă, spaţiu care are numele parametrului formal (în acest caz, tot n) şi care este iniţializat cu valoarea memorată de variabila n a programului principal. Altfel spus, pe stivă se copie valoarea parametrului efectiv de apel. În funcţie, variabila n (care este locală acestei funcţii) este incrementată şi devine 8, valoare care va fi tipărită. La ieşirea din funcţie, variabila n din stivă se pierde, adică nu mai are spaţiu alocat, prin urmare valoarea 8 este pierdută. În main() se tipăreşte valoarea variabilei n (locală acesteia) care are valoarea 7.<br />
 Se observă că, în momentul apelului funcţiei test(), pe stivă sunt alocate două variabile cu acelaşi nume n. Prima variabilă este variabila locală funcţiei main() care se salvează pe stivă în momentul apelului pentru a putea reface contextul funcţiei main() după încheierea apelului. A doua variabilă este parametrul formal tip valoare n, vizibil numai în funcţia test() şi iniţializat în momentul apelului cu valoarea 7. Indiferent ce valori primeşte acest n în corpul funcţiei test(), după încheierea execuţiei acestei funcţii, spaţiul său este de alocat din stivă, adică variabila respectivă este distrusă. Din acest motiv, după execuţia funcţiei test(), conţinutul stivei este cel din dreapta. Se reface contextul din care s-a lansat apelul funcţiei test(), adică se recuperează din stivă valoarea variabilei locale n=7 şi adresa de revenire, adică adresa instrucţiunii cout.<br />
 <span style="font-size: 9pt;"><strong>b)</strong> </span><strong>Expresii.</strong> În acest caz, parametrii efectivi sunt expresii, care pot conţine şi funcţii şi care mai întâi se evaluează. Exemplu:<br />
-#include<iostream.h><br />
-#include<math.h><br />
-void test(int n)<br />
-{<br />
-cout<<n<<endl;<br />
-}<br />
-void main()<br />
-{<br />
-test(5); <em>se va tipări 5</em><br />
-<em><span style="font-family: 'Times New Roman',serif;">test(7+(int)sqrt(45)); </span></em> se va tipări 13<br />
-}<br />
+
+```c++
+#include <iostream.h>
+#include <math.h>
+
+void test(int n) {
+  cout << n << endl; 
+}
+
+void main() {
+  test(5);                  // se va tipări 5
+  test(7 + (int)sqrt(45));  // se va tipări 13
+}
+```
 <span style="display: block; text-align: justify;">În funcţie se creează o variabilă numită</span><span style="display: block; text-align: justify;">n</span><span style="display: block; text-align: justify;">, reţinută pe stivă, care la primul apel va primi valoarea 5 şi la al doilea apel valoarea 13.</span><br />
 <span style="display: block; text-align: justify;">La ieşirea din funcţie conţinutul acestei variabile se pierde.</span><br />
 <span style="display: block; text-align: justify;"><em>Transmiterea parametrilor prin valoare</em></span><span style="display: block; text-align: justify;">se utilizează când nu dorim ca subprogramul apelat să poată modifica parametrii efectivi de apel. Acesta este modul implicit de transmitere a parametrilor în limbajul C. Dacă nu ar exista decât transmiterea prin valoare, ar fi imposibil să modificăm valoarea anumitor valori care sunt declarate în blocul apelator.</span><br />
