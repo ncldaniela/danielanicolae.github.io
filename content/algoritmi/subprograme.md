@@ -477,6 +477,7 @@ void main() {
   test(7 + (int)sqrt(45));  // se va tipări 13
 }
 ```
+
 <span style="display: block; text-align: justify;">În funcţie se creează o variabilă numită</span><span style="display: block; text-align: justify;">n</span><span style="display: block; text-align: justify;">, reţinută pe stivă, care la primul apel va primi valoarea 5 şi la al doilea apel valoarea 13.</span><br />
 <span style="display: block; text-align: justify;">La ieşirea din funcţie conţinutul acestei variabile se pierde.</span><br />
 <span style="display: block; text-align: justify;"><em>Transmiterea parametrilor prin valoare</em></span><span style="display: block; text-align: justify;">se utilizează când nu dorim ca subprogramul apelat să poată modifica parametrii efectivi de apel. Acesta este modul implicit de transmitere a parametrilor în limbajul C. Dacă nu ar exista decât transmiterea prin valoare, ar fi imposibil să modificăm valoarea anumitor valori care sunt declarate în blocul apelator.</span><br />

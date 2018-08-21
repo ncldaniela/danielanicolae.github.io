@@ -9,7 +9,7 @@ draft: false
   <body>
     <div class="wiki" id="content_view" style="display: block;">
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">Declararea, închiderea şi deschiderea fişierelor în C++ utilizează anumite clase şi funcţii care sunt declarate în biblioteca <em>fstream.h.</em></span></span><br />
-<span style="display: block; text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New'; font-size: 10pt;">#include<fstream.h></span></strong></span><br />
+<span style="display: block; text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New'; font-size: 10pt;">#include&lt;fstream.h&gt;</span></strong></span><br />
 <span style="display: block; text-align: justify;"><strong><em><span style="font-family: Arial,sans-serif; font-size: 10pt;">Declararea fişierelor</span></em></strong></span><br />
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">Pentru a putea citi/scrie informaţii dintr-un/într-un fişier, acesta se asociază unui <em>stream</em> (flux) de intrare/ieşire.</span></span><br />
 <span style="display: block; text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New'; font-size: 10pt;">ifstream nume_fişier_logic (nume_fişier);</span></strong><strong><span style="font-family: 'Courier New'; font-size: 10pt;"> <em>deschiderea unui fisier pentr a citi date</em></span></strong></span><br />
@@ -33,19 +33,19 @@ draft: false
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<iostream.h></span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;iostream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ int x;</span></strong></span><br />
-<span style="text-align: justify;"> <strong><span style="color: #cc0066; font-family: 'Courier New';">cin>>x;</span><span style="font-family: 'Courier New';"><em>citim un numar</em></span></strong></span><br />
+<span style="text-align: justify;"> <strong><span style="color: #cc0066; font-family: 'Courier New';">cin&gt;&gt;x;</span><span style="font-family: 'Courier New';"><em>citim un numar</em></span></strong></span><br />
 <em><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">}</span></strong></span></em><br />
 </td>
-        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<fstream.h></span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;fstream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ifstream f(”numere.in”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">int x;</span></strong></span><br />
 <br />
-<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">f>>x;</span></strong><strong><span style="font-family: 'Courier New';"> citim un numar din fisier</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">f&gt;&gt;x;</span></strong><strong><span style="font-family: 'Courier New';"> citim un numar din fisier</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">}</span></strong></span><br />
 </td>
     </tr>
@@ -65,21 +65,21 @@ draft: false
 </td>
     </tr>
     <tr>
-        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<iostream.h></span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;iostream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ int x;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';"> cin>>x;</span></strong></span><br />
-<strong><span style="color: #cc0066; font-family: 'Courier New';">cout<<x;</span></strong><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';"> cin&gt;&gt;x;</span></strong></span><br />
+<strong><span style="color: #cc0066; font-family: 'Courier New';">cout&lt;&lt;x;</span></strong><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">}</span></strong></span><br />
 </td>
-        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<fstream.h></span></strong></span><br />
+        <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;fstream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ifstream f(”numere.in”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ofstream g(”numere.out”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">int x;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f>>x; <em>citim un numar din fisier</em></span></strong></span><br />
-<em><span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">g<<x;</span></strong></span></em><strong>scriem in fisier</strong><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f&gt;&gt;x; <em>citim un numar din fisier</em></span></strong></span><br />
+<em><span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">g&lt;&lt;x;</span></strong></span></em><strong>scriem in fisier</strong><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">}</span></strong></span><br />
 </td>
     </tr>
@@ -105,45 +105,45 @@ draft: false
     <tr>
         <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">Enunt: </span></strong><span style="font-family: Arial,sans-serif; font-size: 10pt;">Se citesc n numere intregi , calculati suma lor si afisati aceasta suma in fisierul date.out.</span></span><br />
 <br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<fstream.h></span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;fstream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ifstream f(”date.in”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ofstream g(”date.out”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">int x,s=0,n;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f>>n;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">for(i=1;i<=n;i++)</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';"> { f>>x;</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f&gt;&gt;n;</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">for(i=1;i&lt;=n;i++)</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';"> { f&gt;&gt;x;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';"> s=s+x;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';"> }</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">g<<s;</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">g&lt;&lt;s;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f.close();g.close();</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';"> }</span></strong></span><br />
 </td>
         <td><span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">Enunt: </span></strong><span style="font-family: Arial,sans-serif; font-size: 10pt;">Se citesc toate numerele intregi din fisierul date.in, calculati suma lor si afisati aceasta suma in fisierul date.out.</span></span><br />
 VARIANTA 1<br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<fstream.h></span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;fstream.h&gt;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">void main()</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">{ </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ifstream f(”date.in”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">ofstream g(”date.out”); </span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">int x,s=0;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">while(f>>x)</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';">while(f&gt;&gt;x)</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="color: #cc0066; font-family: 'Courier New';"> s=s+x;</span></strong></span><br />
-<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">g<<s;</span></strong></span><br />
+<span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">g&lt;&lt;s;</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';">f.close();g.close();</span></strong></span><br />
 <span style="text-align: justify;"><strong><span style="font-family: 'Courier New';"> }</span></strong></span><br />
 VARIANTA 2<br />
-<span style="display: block; text-align: justify;"><strong><span style="font-family: 'Courier New';">#include<fstream.h></span></strong></span><strong>void main()</strong><br />
+<span style="display: block; text-align: justify;"><strong><span style="font-family: 'Courier New';">#include&lt;fstream.h&gt;</span></strong></span><strong>void main()</strong><br />
 <strong>{</strong><br />
 <strong>ifstream f(”date.in”);</strong><br />
 <strong>ofstream g(”date.out”);</strong><br />
 <strong>int x,s=0;</strong><br />
-<strong>f>>x;</strong><br />
+<strong>f&gt;&gt;x;</strong><br />
 <strong><span style="color: #cc0066;">while(!f.eof())</span></strong><br />
 <strong><span style="color: #cc0066;">{s=s+x;</span></strong><br />
-<strong><span style="color: #cc0066;">f>>x;}</span></strong><br />
-g<<s;<br />
+<strong><span style="color: #cc0066;">f&gt;&gt;x;}</span></strong><br />
+g&lt;&lt;s;<br />
 <strong>f.close();g.close();</strong><br />
 <strong>}</strong><br />
 </td>
@@ -156,7 +156,7 @@ g<<s;<br />
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">Aplicatii:</span></span><br />
 <span style="display: block; text-align: justify;"><strong>Problema: Buchete</strong></span><br />
 <span style="display: block; text-align: justify;">(olimpiada locala de informatica 2003 – autor: Crstina Iordaiche)</span><br />
-<span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">La o florarie s-au primit n (n<=30000) fire de flori. Din fisierul buchete.in se citeste numarul n.</span></span><br />
+<span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">La o florarie s-au primit n (n&lt;=30000) fire de flori. Din fisierul buchete.in se citeste numarul n.</span></span><br />
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">Florareasa doreste sa le aranjeze in vaze astfel incat:</span></span><br />
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">- toate vazele sa contina acelasi numar de flori</span></span><br />
 <span style="display: block; text-align: justify;"><span style="font-family: Arial,sans-serif; font-size: 10pt;">- numarul florilor din vaza sa fie impar</span></span><br />
