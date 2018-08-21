@@ -1,9 +1,9 @@
 +++
 title = "Diverse"
 date = 2018-08-20T02:34:00+03:00
-weight = 5
+weight = 6
 chapter = true
-pre = "<b>Ⅴ. </b>"
+pre = "<b>Ⅵ. </b>"
 +++
 
 ### Diverse
