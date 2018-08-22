@@ -1,7 +1,7 @@
 ---
 title: "Ora de Dirigentie"
 date: 2018-08-20T05:35:20+03:00
-weight: 11
+weight: 10
 draft: false
 ---
 
